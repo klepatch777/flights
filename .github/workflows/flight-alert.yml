@@ -17,4 +17,5 @@ jobs:
         run: |
           gh issue create \
             --title "✈️ Квитки ≤400 EUR — $(date -u +%Y-%m-%d)" \
+            --assignee klepatch777 \
             --body-file FLIGHT_DEALS_2027/ALERT.md
