@@ -1,0 +1,20 @@
+name: Flight deal alert
+on:
+  push:
+    paths:
+      - 'FLIGHT_DEALS_2027/ALERT.md'
+permissions:
+  contents: read
+  issues: write
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Open issue (GitHub emails the owner)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "✈️ Квитки ≤400 EUR — $(date -u +%Y-%m-%d)" \
+            --body-file FLIGHT_DEALS_2027/ALERT.md
