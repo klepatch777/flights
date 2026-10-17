@@ -13,6 +13,8 @@
 вильотом у США / Великій Британії / Канаді позначаються banned=1 і за
 замовчуванням не виводяться (див. --show-banned).
 
+Не запускайте більше 2 копій скрипта одночасно: Google відповідає 429.
+
 Обмеження: Google повертає 5–8 найкращих варіантів на запит; деталі видно
 лише для рейсу туди, ціна — за обидва напрямки; чи входить ручна поклажа,
 з результату не видно. Статус таких цін — INDICATIVE (джерело Google Flights).
@@ -26,7 +28,7 @@ import time
 from datetime import date, timedelta
 
 import airportsdata
-from fast_flights import FlightQuery, Passengers, create_query
+from fast_flights import FlightQuery, FlightsNotFound, Passengers, create_query
 from fast_flights.parser import parse
 from primp import Client
 
@@ -89,9 +91,13 @@ def search(client, origin, dest, out, back, retries=2):
             if res.status_code == 429:
                 raise RuntimeError("HTTP 429 (rate limit)")
             return list(parse(res.text)), None
+        except FlightsNotFound:  # на ці дати рейсів немає — це не помилка
+            return [], None
+        except (TypeError, IndexError) as e:  # парсер fast-flights не розібрав сторінку; повтор не допомагає
+            return None, f"PARSE {type(e).__name__}: {e}"
         except Exception as e:  # порожня сторінка, consent, rate limit, мережа
             last_err = f"{type(e).__name__}: {e}"
-            time.sleep(5 * (attempt + 1))
+            time.sleep((20 if "429" in last_err else 5) * (attempt + 1))
     return None, last_err
 
 
