@@ -62,3 +62,10 @@ Thailand: BCN-BKK 2027 від ~596 USD (China Eastern 26.01–02.03 — поза
 | Sri Lanka, Kazakhstan, India | 2026-10-17 / 668 / н/д / н/д | — |
 | Panama, Mexico, DR, Colombia, Peru, Argentina, Chile, Jamaica | — | 2026-10-17 / не знайдено датованих цін (орієнтири 296–1359) |
 | Інші напрямки | не перевірялись | не перевірялись |
+
+## 2026-10-17 (запуск 5, агент, GF)
+Скрипт gflights: ~308 ok / 105 fail (429, IndexError, NoneType; повторні помилки на BCN-KIX, BCN-SID вікно B). OFF_WINDOW (14 дн. крок, 600 запитів) обірвано після ~60; <300 не знайдено. WebSearch 10, сторінок 1 (travel-dealz). Сирі дані: GF_RUNS/2026-10-17.csv.
+Охоплено: NRT, KIX, SID/BVC/VXE, CPT, JNB, BKK/SGN/KUL/ICN (А); NRT, PTY/BOG, CUN/MEX, PUJ/SDQ, LIM/SCL/EZE (В); MCT обидва вікна.
+Найнижче: Cape Verde LIS-BVC easyJet 126 (А); LIS-SID easyJet 148; BCN-MCT Pegasus 306; MAD-MCT Pegasus 254 (+BCN-MAD ~111); BCN-SID TAP 313; Japan BCN-NRT 819; ПАР 608; Таїланд MAD 603; LatAm ≥566.
+Знахідки: 2 у вікні А (INDICATIVE_GF), обидві ≤400 → ALERT.md. COMBO/OFF_WINDOW: немає. Positioning: BCN-LIS ~72-87, BCN-MAD ~104-116.
+Не перевірено: зворотні рейси, cabin bag у Pegasus/easyJet напряму (оцінка), Peru/Bolivia/Jamaica, інші азійські країни, COMBO.

@@ -1,0 +1,27 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Oman
+Destination city: Muscat (MCT)
+Outbound: 2027-01-27
+Return: 2027-02-10
+Trip length: 14 днів
+Date window: A 29.01
+Outbound route: BCN-SAW-MCT
+Inbound route: MCT-SAW-BCN (не перевірено)
+Airline(s): Pegasus
+Booking channel: flypgs.com
+Ticket structure: звичайний квиток туди-назад
+Cabin: Economy
+Cabin baggage included: невідомо — CABIN_BAG_ESTIMATE +50 EUR
+Checked baggage: ні
+Airfare incl. cabin bag EUR: 306 + 50 = ~356
+Positioning from Barcelona: 0
+Necessary overnight cost: 0 (перевірити тривалість пересадки в SAW)
+TOTAL_FROM_BCN: ~356 EUR
+Connection(s): Стамбул SAW; без US/GB/CA
+Transit/visa risk: Оман — джерела суперечливі (безвіз 14 днів чи eVisa) — VISA_CHECK_REQUIRED; Туреччина транзит для українців без візи. Пересадок у US/GB/CA немає.
+Refund/change restrictions: Pegasus Basic — обмежені
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20BCN%20to%20MCT%20on%202027-01-27%20through%202027-02-10
+Booking URL: https://www.flypgs.com
+Found at (UTC): 2026-10-17
+Price history: 2026-10-17 306 (також 17–31.01 за 308)
+Notes: MAD-MCT Pegasus 254 (17–31.01) + BCN-MAD ~111 = ~365 без cabin bag.
