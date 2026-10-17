@@ -1,0 +1,21 @@
+name: Weekly price report
+on:
+  push:
+    paths:
+      - 'FLIGHT_DEALS_2027/WEEKLY.md'
+permissions:
+  contents: read
+  issues: write
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Open issue (GitHub emails the owner)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "📊 Тижневий звіт цін — $(date -u +%Y-%m-%d)" \
+            --assignee klepatch777 \
+            --body-file FLIGHT_DEALS_2027/WEEKLY.md

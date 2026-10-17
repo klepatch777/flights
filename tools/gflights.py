@@ -8,6 +8,12 @@
   python tools/gflights.py --from BCN,MAD,LIS --to NRT,KIX --window A --step 2
   # довільний діапазон (OFF_WINDOW): виліт 2027-02-01..2027-03-31, 7-14 діб
   python tools/gflights.py --from BCN --to BOG --depart 2027-02-01:2027-03-31 --step 3
+  # зупинка в Стамбулі на 1–3 дні по дорозі туди (три квитки в один бік)
+  python tools/gflights.py --from BCN --to MCT --window A --step 3 --via IST --stop-days 1,2,3
+  # open-jaw: прилітаємо в Боготу, повертаємося з Картахени або Медельїна
+  python tools/gflights.py --from BCN,MAD --to BOG --return-from CTG,MDE --window B --step 3
+  # два квитки в один бік (видно маршрут повернення)
+  python tools/gflights.py --from BCN --to SID --oneway --pairs 2027-01-21:2027-02-04
 
 Виводить CSV у stdout (і JSON, якщо --json FILE). Маршрути з пересадкою або
 вильотом у США / Великій Британії / Канаді позначаються banned=1 і за
@@ -78,11 +84,14 @@ def make_client():
     return c
 
 
-def search(client, origin, dest, out, back, retries=2):
+def search(client, origin, dest, out, back=None, retries=2):
+    """Туди-назад, або в один бік, якщо back=None."""
+    legs = [FlightQuery(date=out.isoformat(), from_airport=origin, to_airport=dest)]
+    if back is not None:
+        legs.append(FlightQuery(date=back.isoformat(), from_airport=dest, to_airport=origin))
     q = create_query(
-        flights=[FlightQuery(date=out.isoformat(), from_airport=origin, to_airport=dest),
-                 FlightQuery(date=back.isoformat(), from_airport=dest, to_airport=origin)],
-        trip="round-trip", seat="economy", passengers=Passengers(adults=1), language="en", currency="EUR",
+        flights=legs, trip="round-trip" if back is not None else "one-way",
+        seat="economy", passengers=Passengers(adults=1), language="en", currency="EUR",
     )
     last_err = None
     for attempt in range(retries + 1):
@@ -101,6 +110,93 @@ def search(client, origin, dest, out, back, retries=2):
     return None, last_err
 
 
+def route_codes(r):
+    return [r.flights[0].from_airport.code] + [s.to_airport.code for s in r.flights]
+
+
+def cheapest_allowed(results):
+    """Найдешевший варіант без пересадок у US/GB/CA або None."""
+    ok = [r for r in results or [] if not any(country(c) in BANNED_COUNTRIES for c in route_codes(r))]
+    return min(ok, key=lambda r: r.price) if ok else None
+
+
+class OneWayCache:
+    """Кешує запити в один бік: у режимі --via однакові відрізки повторюються."""
+
+    def __init__(self, client, delay):
+        self.client, self.delay, self.memo = client, delay, {}
+        self.ok = self.failed = 0
+
+    def get(self, o, d, day):
+        key = (o, d, day)
+        if key not in self.memo:
+            results, err = search(self.client, o, d, day)
+            if results is None:
+                self.failed += 1
+                print(f"# {o}-{d} {day}: FAIL {err}", file=sys.stderr)
+            else:
+                self.ok += 1
+            self.memo[key] = cheapest_allowed(results)
+            time.sleep(self.delay + random.uniform(0, 1))
+        return self.memo[key]
+
+
+def run_legs(args, origins, dests, pairs, w):
+    """Маршрут з окремих квитків в один бік; ціна — їх сума.
+    Туди: ORIGIN→DEST, або з --via: ORIGIN→HUB, зупинка 1–3 дні, HUB→DEST.
+    Назад: з DEST або з кожного міста --return-from (open-jaw) → ORIGIN, будь-яким маршрутом."""
+    hub = args.via.upper() if args.via else None
+    stop_days = [int(x) for x in args.stop_days.split(",")] if hub else [0]
+    cache = OneWayCache(make_client(), args.delay)
+    rows = []
+    for o in origins:
+        for d in dests:
+            back_from = [x.strip().upper() for x in args.return_from.split(",")] if args.return_from else [d]
+            for out, back in pairs:
+                if hub:
+                    leg1 = cache.get(o, hub, out)
+                    if leg1 is None:
+                        continue
+                    best = None
+                    for s in stop_days:
+                        cand = cache.get(hub, d, out + timedelta(days=s))
+                        if cand is not None and (best is None or cand.price < best[1].price):
+                            best = (s, cand)
+                    if best is None:
+                        continue
+                    s, leg2 = best
+                    outbound = [leg1, leg2]
+                    out_desc = (f"{'-'.join(route_codes(leg1))} [{leg1.price}] / stop {s}d in {hub} / "
+                                f"{'-'.join(route_codes(leg2))} [{leg2.price}]")
+                else:
+                    leg = cache.get(o, d, out)
+                    if leg is None:
+                        continue
+                    outbound = [leg]
+                    out_desc = f"{'-'.join(route_codes(leg))} [{leg.price}]"
+                for r in back_from:
+                    ret = cache.get(r, o, back)
+                    if ret is None:
+                        continue
+                    legs = outbound + [ret]
+                    total = sum(x.price for x in legs)
+                    row = {
+                        "origin": o, "dest": d if r == d else f"{d}>{r}", "out": out.isoformat(),
+                        "back": back.isoformat(), "days": (back - out).days, "price_eur": total,
+                        "airlines": " | ".join("+".join(x.airlines) for x in legs),
+                        "route_out": f"{out_desc} / back {'-'.join(route_codes(ret))} [{ret.price}]",
+                        "stops_out": f"via {hub}" if hub else ("open-jaw" if r != d else "2x one-way"),
+                        "banned": 0, "found_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                    }
+                    rows.append(row)
+                    if args.max_price is None or total <= args.max_price:
+                        w.writerow(row.values())
+                        sys.stdout.flush()
+                    print(f"# {o}-{d}>{r} {out}..{back}: {total} EUR", file=sys.stderr)
+    print(f"# done: {cache.ok} ok, {cache.failed} failed (one-way queries)", file=sys.stderr)
+    return rows, cache.ok, cache.failed
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--from", dest="origins", required=True, help="IATA через кому, напр. BCN,MAD")
@@ -110,8 +206,12 @@ def main():
     g.add_argument("--pairs", help="OUT:BACK[,OUT:BACK...] у форматі YYYY-MM-DD")
     g.add_argument("--depart", help="діапазон вильоту FROM:TO (YYYY-MM-DD) для OFF_WINDOW")
     ap.add_argument("--step", type=int, default=2, help="крок сітки дат у днях (за замовч. 2)")
-    ap.add_argument("--min-days", type=int, default=7)
+    ap.add_argument("--min-days", type=int, default=10)
     ap.add_argument("--max-days", type=int, default=14)
+    ap.add_argument("--via", help="хаб для зупинки (напр. IST): три квитки в один бік, ціна — сума")
+    ap.add_argument("--stop-days", default="1,2,3", help="скільки днів зупинки в хабі перебирати (для --via)")
+    ap.add_argument("--return-from", help="open-jaw: повернення з цих міст (IATA через кому) замість --to")
+    ap.add_argument("--oneway", action="store_true", help="два квитки в один бік замість туди-назад")
     ap.add_argument("--max-price", type=float, default=None, help="виводити лише варіанти не дорожчі")
     ap.add_argument("--top", type=int, default=3, help="скільки найдешевших варіантів на запит виводити")
     ap.add_argument("--delay", type=float, default=2.0, help="пауза між запитами, с")
@@ -130,12 +230,20 @@ def main():
     origins = [x.strip().upper() for x in args.origins.split(",") if x.strip()]
     dests = [x.strip().upper() for x in args.dests.split(",") if x.strip()]
     total = len(origins) * len(dests) * len(pairs)
-    print(f"# queries: {total}", file=sys.stderr)
-
-    client = make_client()
     w = csv.writer(sys.stdout)
     w.writerow(["origin", "dest", "out", "back", "days", "price_eur", "airlines", "route_out", "stops_out",
                 "banned", "found_utc"])
+
+    if args.via or args.return_from or args.oneway:
+        print(f"# itineraries: {total} (one-way queries, cached)", file=sys.stderr)
+        rows, ok, failed = run_legs(args, origins, dests, pairs, w)
+        if args.json:
+            with open(args.json, "w", encoding="utf-8") as f:
+                json.dump(rows, f, ensure_ascii=False, indent=1)
+        sys.exit(2 if ok == 0 and failed else 0)
+
+    print(f"# queries: {total}", file=sys.stderr)
+    client = make_client()
     rows, n, failed = [], 0, 0
     for o in origins:
         for d in dests:
@@ -149,7 +257,7 @@ def main():
                     continue
                 parsed = []
                 for r in results:
-                    codes = [r.flights[0].from_airport.code] + [s.to_airport.code for s in r.flights]
+                    codes = route_codes(r)
                     banned = any(country(c) in BANNED_COUNTRIES for c in codes)
                     parsed.append({
                         "origin": o, "dest": d, "out": out.isoformat(), "back": back.isoformat(),
