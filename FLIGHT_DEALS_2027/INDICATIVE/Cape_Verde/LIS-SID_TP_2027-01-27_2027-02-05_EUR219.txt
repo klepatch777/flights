@@ -1,0 +1,27 @@
+STATUS: INDICATIVE
+Country: Cape Verde
+Destination city: Sal (Santa Maria / Espargos)
+Outbound: 2027-01-27
+Return: 2027-02-05
+Trip length: 9 days
+Date window: охоплює 29.01.2027 (виліт ≥2 дні до, повернення ≥2 дні після) — OK
+Outbound route: LIS -> SID (прямий)
+Inbound route: SID -> LIS (прямий)
+Airline(s): TAP Air Portugal (TP)
+Booking channel: airline (flytap.com)
+Ticket structure: single round-trip LIS–SID; positioning BCN–LIS окремим квитком (SELF_TRANSFER)
+Cabin: Economy
+Cabin baggage included: ймовірно 8 кг cabin bag + personal item (правило TAP Economy, на сторінці не підтверджено)
+Checked baggage: not included / not checked
+Airfare incl. cabin bag and mandatory fees: EUR 219
+Positioning from Barcelona: unknown (орієнтовно 60–150 EUR туди-назад лоукостом) — POSITIONING_COST_UNKNOWN
+Necessary overnight cost: unknown (залежить від стиковки)
+TOTAL_FROM_BCN: unknown (орієнтовно 280–370 EUR)
+Connection(s): прямий LIS–SID; окремий переліт BCN–LIS
+Transit/visa risk: Кабо-Верде для паспорта України — дані суперечливі (безвіз 30 днів або віза по прибуттю ~44 EUR); обов'язкова EASE-реєстрація ≥5 днів до прильоту; паспорт дійсний 6 міс. VISA_CHECK_REQUIRED
+Refund/change restrictions: not checked
+Source URL: https://www.flytap.com/en_pt/flights-from-lisbon-to-cape-verde
+Booking URL: https://www.flytap.com
+Found at (UTC): 2026-10-17 (ручна перевірка, WebSearch/WebFetch; на сторінці «viewed 1 day ago»)
+Price history: 2026-10-17 — EUR 219
+Notes: Ціна з блоку «Best Flight Deals» TAP; може бути недоступна при бронюванні. Знайдено вручну, не агентом.
