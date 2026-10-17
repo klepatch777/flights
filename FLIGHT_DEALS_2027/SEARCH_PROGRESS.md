@@ -32,3 +32,33 @@ Cape Verde (TAP, flytap.com, сторінки LIS→CV і BCN→CV):
 - Google Flights LIS-SID: easyJet ~127 EUR (січень), typical 240–520 — перевірити easyJet LIS/BCN→SID/BVC на дати вікон.
 Thailand: BCN-BKK 2027 від ~596 USD (China Eastern 26.01–02.03 — поза вікном), Etihad 629 USD (20–29.01 — не охоплює 29.01 з запасом 2 дні). ≤400 лише error fares.
 Наступні кроки: позиціювання BCN–LIS на дати вікон; easyJet/Ryanair/Binter на Кабо-Верде; Таїланд у вікнах дат.
+
+## 2026-10-17 (запуск 4, агент)
+Перевірено (WebSearch, 16 запитів; WebFetch недоступний для airline-сторінок; пошук лише стандартний, US-only): Cape Verde (TAP LIS→SID/BVC/VXE, easyJet/Ryanair/Binter) А+В; Japan (BCN, MAD, LIS, AMS/FRA/CDG) А+В; Panama (MAD) В; Mexico (MAD→CUN/MEX) В; Punta Cana (MAD) В; Colombia (MAD) В; Peru (MAD) В; Argentina (MAD) В; Chile (MAD) В; Jamaica (MAD/BCN) В; South Africa (BCN) А; Thailand (BCN) А; Vietnam (BCN/MAD) А; Uzbekistan (BCN) А; Sri Lanka (BCN) А; Kazakhstan/India (BCN) А; Secret Flying.
+Найнижчі побачені ціни (індикативно; не пропозиції):
+- Japan: Etihad BCN–NRT 19.01–02.02.2027 €711 (у вікні, >400); AMS JAL 14.01–24.02 €938 (поза тривалістю); LIS Etihad від €939; MAD Korean Air від ~€920 (березень).
+- Cape Verde: TAP січень 2027 — LIS–VXE 13–23.01 €290, LIS–BVC 12–23.01 €305, LIS–RAI 08–29.01 €325 (усі не охоплюють 29.01 із запасом — поза вікном); нових дат у вікні А/В понад уже збережені не знайдено; квітень 2027 TAP-сторінки не показали.
+- Thailand: Turkish BCN–BKK 06–20.01.2027 €659 (поза вікном).
+- Sri Lanka: Etihad BCN–CMB 13–20.01 €668 (поза вікном).
+- Vietnam: BCN–HAN 10–30.01 €715 (поза тривалістю); Cathay MAD–HAN кінець січня від €748.
+- Uzbekistan: Trabber від €196 без дат/року; Turkish €611 (літо 2026).
+- Kazakhstan/India: Azerbaijan Airlines one-way BCN–DEL 01.04.2027 $276, BCN–ALA 23.05.2027 $324 (one-way, поза вікнами).
+- South Africa: Air Europa BCN–JNB від €771 (травень 2027); lastminute BCN–CPT £753 (бер 2027).
+- Panama: Trabber від €296 (недатовано); Mexico: ≥€500 (Trabber MAD–CUN); Punta Cana: Air Europa від €726 (5–12.02.2027, поза вікном); Colombia: Air Europa МАD–BOG €942 (01–30.01, поза); Chile: €1359 (24.03–09.04, поза); Lima/EZE/MBJ: лише недатовані орієнтири >€550.
+Результат: нових пропозицій ≤400 EUR у вікнах дат немає; ALERT.md не змінювався.
+Охоплення менше мінімуму (16 запитів замість 30; WebFetch на сторінки авіакомпаній недоступний).
+Не перевірено: Taiwan/HK/Korea/China/Malaysia/Singapore/Indonesia/Philippines/Cambodia/Laos/Nepal, Bolivia; хаби MXP/FCO/BRU/WAW/BUD/IST; easyJet/Ryanair/Binter на Кабо-Верде з датами; Dominican SDQ/POP.
+Наступні кроки: перелічені вище; позиціювання BCN–LIS на дати TAP.
+
+### Таблиця покриття (остання перевірка / найнижча побачена ціна)
+| Напрямок | Вікно A | Вікно B |
+|---|---|---|
+| Cape Verde | 2026-10-17 / 219 (TAP LIS-SID) | 2026-10-17 / 259 (TAP LIS-VXE) |
+| Japan | 2026-10-17 / 711 | 2026-10-17 / ~920 (MAD, березень) |
+| South Africa | 2026-10-17 / >750 | 2026-10-17 / >750 |
+| Thailand | 2026-10-17 / 659 (поза вікном) | — |
+| Vietnam | 2026-10-17 / 715 (поза) | 2026-10-17 / н/д |
+| Uzbekistan | 2026-10-17 / н/д дат | — |
+| Sri Lanka, Kazakhstan, India | 2026-10-17 / 668 / н/д / н/д | — |
+| Panama, Mexico, DR, Colombia, Peru, Argentina, Chile, Jamaica | — | 2026-10-17 / не знайдено датованих цін (орієнтири 296–1359) |
+| Інші напрямки | не перевірялись | не перевірялись |

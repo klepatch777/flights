@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-10-17 (UTC, запуск 3)
+Останній запуск: 2026-10-17 (UTC, запуск 4)
 
 | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File |
 |---|---|---|---|---|---|---|---|---|---|
@@ -30,3 +30,5 @@ Japan (Tokyo), South Africa (JNB/CPT), Thailand (BKK) з BCN; загальний
 Запуск 2: додатково Korea (BCN–ICN, ~762 EUR Korean Air, індикативно, >400), Cape Verde (2027 ще не продається за знайденими даними), Vietnam/India (лише 2026 дати). Нічого ≤400 EUR.
 
 Запуск 3: Tokyo (Etihad €711), Cape Verde (TAP LIS–SID €280 лише 14–18.02, поза вікном), Tashkent, Hanoi, Panama, Colombia, Mexico, DR, SA, Peru/Chile/Argentina — нічого ≤400 у вікнах.
+
+Запуск 4: 16 запитів по Cape Verde, Japan, LatAm/Карибах, ПАР, Азії — нових пропозицій ≤400 EUR у вікнах дат немає (див. SEARCH_PROGRESS.md).
