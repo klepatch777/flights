@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Sal (SID)
+Return city: Boa Vista (BVC)
+Outbound: 2027-01-21
+Return: 2027-02-04
+Trip length: 14 днів
+Date window: A 29.01 (виліт ≤27.01, повернення ≥31.01)
+Outbound route: LIS-SID (easyJet, прямий) 53 EUR
+Inbound route: BVC-LIS (easyJet, прямий) 65 EUR
+Stopover (місто, днів): —
+Airline(s): easyJet
+Ticket structure: два квитки в один бік (53 + 65)
+Cabin baggage included: ні (лише personal item) — CABIN_BAG_ESTIMATE +80 EUR за обидва напрямки
+Airfare incl. cabin bag EUR: 118 + 80 = ~198
+Positioning from Barcelona: BCN-LIS-BCN ~147 EUR (Vueling/TAP, два квитки в один бік)
+TOTAL_FROM_BCN: ~345 EUR (оцінка)
+Transit/visa risk: паспорт України; пересадок у США/GB/CA немає. Кабо-Верде: EASE — VISA_CHECK_REQUIRED. Між островами не потрібно окремого переліту.
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20LIS%20to%20SID%20on%202027-01-21
+Found at (UTC): 2026-10-17
+Price history: 2026-10-17 118
+Notes: Open-jaw Сал→Боа-Віста, можна доїхати між островами. Інший варіант: LIS→SID, RAI→LIS 179 (easyJet+TAP).

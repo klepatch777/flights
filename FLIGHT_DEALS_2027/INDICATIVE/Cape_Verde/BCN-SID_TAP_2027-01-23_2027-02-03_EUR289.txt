@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Sal (SID)
+Return city: Sal (SID)
+Outbound: 2027-01-23
+Return: 2027-02-03
+Trip length: 11 днів
+Date window: A 29.01 (виліт ≤27.01, повернення ≥31.01)
+Outbound route: BCN-LIS-SID (пересадка в Лісабоні; TAP)
+Inbound route: SID-LIS-BCN (очікується; зворотний маршрут не перевірено окремо)
+Stopover (місто, днів): можливо Лісабон 1–3 дні (не оцінено скриптом)
+Airline(s): TAP Air Portugal
+Ticket structure: один квиток туди-назад
+Cabin baggage included: так за умовами TAP Discount (ручна поклажа до 8 кг) — перевірити на flytap.com
+Airfare incl. cabin bag EUR: 289
+Positioning from Barcelona: 0 (виліт з BCN)
+TOTAL_FROM_BCN: 289 EUR (≤300)
+Transit/visa risk: паспорт України; пересадок у США/Британії/Канаді немає (BCN-LIS-SID). Кабо-Верде: онлайн-реєстрація EASE — VISA_CHECK_REQUIRED.
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20BCN%20to%20SID%20on%202027-01-23%20through%202027-02-03
+Found at (UTC): 2026-10-17
+Price history: 2026-10-17 289
+Notes: Альтернатива: easyJet LIS-SID/BVC від 111–136 + positioning ~147 + cabin bag (дешевше за квиток, але total ~340).

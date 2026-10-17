@@ -16,12 +16,12 @@ Checked baggage: not included / not checked
 Airfare incl. cabin bag and mandatory fees: EUR 259
 Positioning from Barcelona: unknown (орієнтовно 60–150 EUR туди-назад лоукостом) — POSITIONING_COST_UNKNOWN
 Necessary overnight cost: unknown
-TOTAL_FROM_BCN: unknown (орієнтовно 320–410 EUR)
+TOTAL_FROM_BCN: ~350 EUR (259 TAP + positioning BCN-LIS-BCN ~90, GF Vueling; cabin bag TAP включено — перевірити)
 Connection(s): not checked
 Transit/visa risk: Кабо-Верде для паспорта України — дані суперечливі (безвіз 30 днів або віза по прибуттю ~44 EUR); обов'язкова EASE-реєстрація ≥5 днів до прильоту. VISA_CHECK_REQUIRED
 Refund/change restrictions: not checked
 Source URL: https://www.flytap.com/en_pt/flights-from-lisbon-to-cape-verde
 Booking URL: https://www.flytap.com
 Found at (UTC): 2026-10-17 (ручна перевірка; на сторінці «viewed 12 minutes ago»)
-Price history: 2026-10-17 — EUR 259
+Price history: 2026-10-17 259; 2026-10-17 (GF) також LIS-VXE 07–21.04 259, LIS-RAI 04–18.04 259
 Notes: Ціна з блоку «Best Flight Deals» TAP; може бути недоступна при бронюванні. Знайдено вручну, не агентом.

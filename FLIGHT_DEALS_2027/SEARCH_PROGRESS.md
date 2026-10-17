@@ -69,3 +69,15 @@ Thailand: BCN-BKK 2027 від ~596 USD (China Eastern 26.01–02.03 — поза
 Найнижче: Cape Verde LIS-BVC easyJet 126 (А); LIS-SID easyJet 148; BCN-MCT Pegasus 306; MAD-MCT Pegasus 254 (+BCN-MAD ~111); BCN-SID TAP 313; Japan BCN-NRT 819; ПАР 608; Таїланд MAD 603; LatAm ≥566.
 Знахідки: 2 у вікні А (INDICATIVE_GF), обидві ≤400 → ALERT.md. COMBO/OFF_WINDOW: немає. Positioning: BCN-LIS ~72-87, BCN-MAD ~104-116.
 Не перевірено: зворотні рейси, cabin bag у Pegasus/easyJet напряму (оцінка), Peru/Bolivia/Jamaica, інші азійські країни, COMBO.
+
+## 2026-10-17 (запуск 6, агент, GF; 6 країн)
+Скрипт gflights: 173 ok / 16 fail (429 та IndexError; Cape Verde BCN/LIS вікно A — 10 fail, open-jaw MAD→BOG>CTG/MDE та via IST — частково). Сирі дані дописані в GF_RUNS/2026-10-17.csv. WebSearch 12, сторінок 3 (secretflying/fly4free — 403; travel-dealz — без релевантного). Oman перенесено в ARCHIVE/Oman.
+Охоплено: Cape Verde (LIS/BCN→SID,BVC; LIS→VXE,RAI B; open-jaw LIS→SID/BVC,RAI); ПАР (BCN,MAD→CPT,JNB A; BCN via IST B); Colombia/Panama (MAD,BCN→BOG,PTY B; MAD open-jaw A); Mexico (A); Argentina (B); BCN via IST→PTY (A); positioning BCN-LIS.
+Найнижче (туди-назад / open-jaw / via IST):
+- Cape Verde A: LIS-BVC easyJet 111 (26.01–06.02) / open-jaw LIS-SID+BVC-LIS 118 / BCN-SID TAP 289; B: LIS-VXE/RAI TAP 259.
+- South Africa A: BCN-JNB Air Europa 520; B: via IST 1084.
+- Colombia B: MAD-BOG 798; open-jaw A ≥1196. Panama B: MAD-PTY 597; via IST A 1578. Mexico A: MAD-MEX 671. Argentina B: BCN-EZE 892.
+Positioning BCN-LIS-BCN: Січ ~130–147, кв ~77–93.
+Знахідки ≤400: 3 (Cape Verde, ALERT.md). Падіння цін: замало історії. Тижневий звіт: не понеділок.
+Візи (веб, агрегатори): Аргентина/Колумбія/Панама — безвіз; Кабо-Верде — EASE; Мексика — eTA/e-віза; ПАР — віза/eVisa (VISA_CHECK_REQUIRED).
+Не перевірено: cabin bag easyJet/TAP напряму, зворотні рейси, інші аеропорти вильоту (MAD для Кабо-Верде, OPO), Stopover LIS, OFF_WINDOW.

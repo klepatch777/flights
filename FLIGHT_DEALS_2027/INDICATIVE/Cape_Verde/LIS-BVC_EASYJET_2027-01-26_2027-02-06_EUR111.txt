@@ -1,9 +1,9 @@
 STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
 Country: Cape Verde
 Destination city: Boa Vista (BVC)
-Outbound: 2027-01-17
-Return: 2027-01-31
-Trip length: 14 днів
+Outbound: 2027-01-26
+Return: 2027-02-06
+Trip length: 11 днів
 Date window: A 29.01 (виліт ≤27.01, повернення ≥31.01)
 Outbound route: LIS-BVC (прямий, за даними GF)
 Inbound route: BVC-LIS (очікується прямий; не перевірено)
@@ -13,15 +13,15 @@ Ticket structure: звичайний квиток туди-назад LIS-BVC + 
 Cabin: Economy
 Cabin baggage included: ні (лише personal item) — CABIN_BAG_ESTIMATE +80 EUR за обидва напрямки (ориентир travel-dealz для easyJet LIS-Sal)
 Checked baggage: ні
-Airfare incl. cabin bag EUR: 126 + 80 = ~206
-Positioning from Barcelona: BCN-LIS 16.01 / LIS-BCN 31.01 Vueling ~85 EUR (GF, лише personal item)
-Necessary overnight cost: ~50 EUR (ніч у Лісабоні 16.01, оцінка; якщо ранковий рейс BCN-LIS 17.01 встигає — 0)
-TOTAL_FROM_BCN: ~341 EUR (оцінка)
+Airfare incl. cabin bag EUR: 111 + 80 = ~191
+Positioning from Barcelona: BCN-LIS 25.01 / LIS-BCN 07.02 Vueling+TAP, два квитки в один бік 76+71 = ~147 EUR (GF, 2026-10-17)
+Necessary overnight cost: 0 (оцінка; ранкові рейси)
+TOTAL_FROM_BCN: ~338 EUR (111 + 80 cabin bag + 147 positioning)
 Connection(s): без пересадок на Кабо-Верде; без US/GB/CA
 Transit/visa risk: Україна — Кабо-Верде: потрібна онлайн-реєстрація EASE та перевірка візового режиму для громадян України — VISA_CHECK_REQUIRED. Пересадок у US/GB/CA немає.
 Refund/change restrictions: тариф easyJet Standard, без повернення (перевірити)
-Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20LIS%20to%20BVC%20on%202027-01-17%20through%202027-01-31
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20LIS%20to%20BVC%20on%202027-01-26%20through%202027-02-06
 Booking URL: https://www.easyjet.com
 Found at (UTC): 2026-10-17
-Price history: 2026-10-17 126
+Price history: 2026-10-17 126 (17–31.01) → 111 (26.01–06.02)
 Notes: Також LIS-SID easyJet 148 (17–31.01). Ціни на cabin bag і зворотний рейс перевірити на easyjet.com. Дати окремих розрізнених перевірок GF: інші дати TAP LIS-SID 202–284.
