@@ -81,3 +81,15 @@ Positioning BCN-LIS-BCN: Січ ~130–147, кв ~77–93.
 Знахідки ≤400: 3 (Cape Verde, ALERT.md). Падіння цін: замало історії. Тижневий звіт: не понеділок.
 Візи (веб, агрегатори): Аргентина/Колумбія/Панама — безвіз; Кабо-Верде — EASE; Мексика — eTA/e-віза; ПАР — віза/eVisa (VISA_CHECK_REQUIRED).
 Не перевірено: cabin bag easyJet/TAP напряму, зворотні рейси, інші аеропорти вильоту (MAD для Кабо-Верде, OPO), Stopover LIS, OFF_WINDOW.
+
+## 2026-10-18 (запуск 7, агент, GF; 6 країн)
+Скрипт gflights: ~650 ok / ~95 fail (FAIL PARSE на LIS-BVC/SID квітень, BCN-SID/OPO-SID B; усі open-jaw/via IST з BCN у B — FAIL або 0). Додатково 8 запитів positioning. WebSearch 10, сторінок 5 (flytap, travel-dealz ×2 ок; secretflying/fly4free — 403). Сирі дані: GF_RUNS/2026-10-18.csv.
+Охоплено: Cape Verde A+B (LIS/BCN/MAD/OPO → SID/BVC/VXE/RAI, open-jaw з LIS); ПАР (BCN, MAD A/B; IST, FCO A); Колумбія/Панама (BCN, MAD, CDG → BOG/PTY A+B); Мексика (MAD, BCN → MEX/CUN A+B); Аргентина (BCN, MAD → EZE A+B); open-jaw MAD→MEX/CUN A, BCN→BOG B; via IST (BCN→CPT,PTY B — FAIL).
+Найнижче (туди-назад / open-jaw):
+- Cape Verde A: LIS-BVC/VXE easyJet 102, LIS-SID 104 / open-jaw 118; B: LIS-BVC 179 / open-jaw 194.
+- ПАР A FCO-JNB 564 (Etihad), B MAD-CPT 649. Колумбія A MAD-BOG 799, B CDG-BOG 796 / OJ 1232. Панама A MAD-PTY 752, B BCN-PTY 709. Мексика A MAD-MEX 671 / OJ 905, B MAD-MEX 629. Аргентина A MAD-EZE 942, B BCN-EZE 882.
+Positioning BCN-LIS-BCN: 19.01–02.02 104; 21.01–02.02 64 (Vueling); 06–20.04 77; BCN-OPO 12–26.04 130.
+Знахідки ≤400: 5 (Cape Verde, ALERT.md). Падіння ≥15%: CV B, Colombia A, ZA B, Panama A (останні три >400). OFF_WINDOW не перевірялось. Тижневий звіт: не понеділок.
+Веб: нових error fares до цих країн не знайдено (secretflying Latin America open-jaw 152 EUR — липень 2026, непевний). easyJet cabin bag LIS-Sal: +80 EUR (travel-dealz, 2025; AiFly 2026 каже cabin bag включено — перевірити на easyjet.com). TAP LIS: SID 214 (08–25.01), BVC 219 (02–09.02), RAI 254 / VXE 259 (квітень).
+Візи (агрегатори): Аргентина/Колумбія/Панама безвіз; Кабо-Верде EASE (суперечливо); Мексика/ПАР — VISA_CHECK_REQUIRED.
+Не перевірено: OFF_WINDOW, via IST/LIS stopover, LatAm open-jaw інших пар, cabin bag напряму, зворотні рейси.
