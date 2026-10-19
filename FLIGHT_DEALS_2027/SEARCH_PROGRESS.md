@@ -93,3 +93,14 @@ Positioning BCN-LIS-BCN: 19.01–02.02 104; 21.01–02.02 64 (Vueling); 06–20.
 Веб: нових error fares до цих країн не знайдено (secretflying Latin America open-jaw 152 EUR — липень 2026, непевний). easyJet cabin bag LIS-Sal: +80 EUR (travel-dealz, 2025; AiFly 2026 каже cabin bag включено — перевірити на easyjet.com). TAP LIS: SID 214 (08–25.01), BVC 219 (02–09.02), RAI 254 / VXE 259 (квітень).
 Візи (агрегатори): Аргентина/Колумбія/Панама безвіз; Кабо-Верде EASE (суперечливо); Мексика/ПАР — VISA_CHECK_REQUIRED.
 Не перевірено: OFF_WINDOW, via IST/LIS stopover, LatAm open-jaw інших пар, cabin bag напряму, зворотні рейси.
+
+## 2026-10-19 (запуск 8, агент, GF; 6 країн; понеділок — тижневий звіт)
+Скрипт gflights: 688 ok / 148 fail (+8 ok positioning). Системні FAIL: BCN/MAD→SID,VXE вікно B (60/60, NoneType PARSE), BCN→SID/OPO→SID частково (25/60), LIS→SID open-jaw BCN (9). Сирі дані: GF_RUNS/2026-10-19.csv. WebSearch 10, сторінок 4 (secretflying/fly4free — 403; travel-dealz, aifly — ок).
+Охоплено: Cape Verde A+B (LIS/OPO/BCN/MAD, open-jaw з LIS/BCN, stopover LIS); ПАР (BCN, MAD, IST; open-jaw CPT↔JNB; via IST); Колумбія/Панама (BCN, MAD, AMS; open-jaw BOG/CTG/MDE/PTY); Мексика (BCN, MAD; open-jaw MEX→CUN); Аргентина (BCN, MAD; EZE→AEP).
+Найнижче (туди-назад / open-jaw / stopover):
+- Cape Verde A: LIS-BVC/VXE easyJet 102, LIS-SID 103, LIS-RAI 104, OPO-BVC 105 / OJ 118 / BCN via LIS→SID 325; B: LIS-BVC 179, SID 197, VXE 214, RAI TAP 259 / OJ 194.
+- ПАР A BCN-JNB 520, B MAD-CPT 649 / OJ A 966 / via IST 896. Колумбія A/B BCN-BOG 809 / OJ 1071–1184. Панама A BCN-PTY 751, B 709. Мексика A MAD-MEX 671, B 629 / OJ B 885. Аргентина A MAD-EZE 926, B BCN-EZE 882 / OJ A 1627.
+Positioning: BCN-LIS 04.2027 81–86; BCN-OPO 130 (TAP) / 117 (Vueling, апрель).
+Знахідки ≤400: 3 нові (OPO-BVC A, LIS-RAI A, LIS-VXE B) → ALERT.md. Падіння ≥15%: немає. OFF_WINDOW не перевірялось. WEEKLY.md оновлено.
+Веб: нових error fares до цих країн немає; Iberia промо MAD-EZE від 425 за тр. (продаж з 12.11.2026); Air Europa BCN-PTY 742 (14–17.04). easyJet cabin bag: travel-dealz +80, AiFly — включено (суперечність).
+Не перевірено: зворотні рейси, cabin bag напряму, OFF_WINDOW, stopover через IST для Мексики/Аргентини, Колумбія↔Панама ширше.

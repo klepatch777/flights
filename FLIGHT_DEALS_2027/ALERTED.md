@@ -13,3 +13,6 @@
 - 2026-10-18 | Cape Verde | LIS-BVC | 2027-04-06–2027-04-20 | easyJet | 179 EUR (total ~336) | GF
 - 2026-10-18 | Cape Verde | LIS-SID/BVC-LIS open-jaw | 2027-04-13–2027-04-24 | easyJet | 194 EUR (total ~361) | GF
 - 2026-10-18 | падіння | Cape Verde B 259→179 (−31%); Colombia A 1196→799 (−33%); South Africa B 1084→649 (−40%); Panama A 1578→752 (−52%) | GF
+- 2026-10-19 | Cape Verde | OPO-BVC | 2027-01-19–2027-02-02 | easyJet | 105 EUR (total ~315) | GF
+- 2026-10-19 | Cape Verde | LIS-RAI | 2027-01-21–2027-02-04 | easyJet | 104 EUR (total ~288, ≤300) | GF
+- 2026-10-19 | Cape Verde | LIS-VXE | 2027-04-08–2027-04-22 | easyJet | 214 EUR (total ~375) | GF

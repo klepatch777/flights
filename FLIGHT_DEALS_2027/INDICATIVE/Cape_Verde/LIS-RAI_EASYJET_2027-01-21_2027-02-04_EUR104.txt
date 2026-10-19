@@ -1,0 +1,23 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Прая (RAI)
+Return city: Прая (RAI)
+Outbound: 2027-01-21
+Return: 2027-02-04
+Trip length: 14 днів
+Date window: A 29.01
+Outbound route: LIS-RAI (прямий)
+Inbound route: RAI-LIS (очікується прямий; не перевірено)
+Stopover: немає
+Airline(s): easyJet
+Ticket structure: один квиток туди-назад LIS-RAI + окремо positioning BCN-LIS-BCN
+Cabin baggage included: ні (лише personal item) — CABIN_BAG_ESTIMATE +80 EUR за обидва напрямки (travel-dealz; AiFly суперечить — перевірити на easyjet.com)
+Airfare incl. cabin bag EUR: 104 + 80 = ~184
+Positioning from Barcelona: BCN-LIS-BCN ~104 (оцінка за сусідніми датами)
+TOTAL_FROM_BCN: ~288 EUR
+Transit/visa risk: Україна — Кабо-Верде: EASE; джерела розходяться — VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає (прямий рейс).
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20LIS%20to%20RAI%20on%202027-01-21%20through%202027-02-04
+Booking URL: https://www.easyjet.com
+Found at (UTC): 2026-10-19
+Price history: 2026-10-19 104
+Notes: Зворотний рейс і ціну cabin bag перевірити на easyjet.com.
