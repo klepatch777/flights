@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Сан-Вісенте (VXE)
+Return city: Сан-Вісенте (VXE)
+Outbound: 2027-01-27
+Return: 2027-02-06
+Trip length: 10 днів
+Date window: A 29.01
+Outbound route: LIS-VXE (прямий)
+Inbound route: VXE-LIS (очікується прямий; не перевірено)
+Stopover: немає
+Airline(s): easyJet
+Ticket structure: один квиток туди-назад LIS-VXE + окремо positioning з BCN
+Cabin baggage included: ні (лише personal item) — CABIN_BAG_ESTIMATE 80 EUR за обидва напрямки (перевірити на сайті перевізника)
+Airfare incl. cabin bag EUR: 118 + 80
+Positioning from Barcelona: BCN-LIS Vueling 134 (27.01–06.02) (туди-назад BCN↔LIS, оцінка)
+TOTAL_FROM_BCN: ~332 EUR
+Transit/visa risk: Україна — Кабо-Верде: EASE/віза при прибутті; джерела розходяться — VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає (прямий рейс).
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20LIS%20to%20VXE%20on%202027-01-27%20through%202027-02-06
+Found at (UTC): 2026-10-20
+Price history: 2026-10-20 118
+Notes: Зворотний рейс і ціну cabin bag перевірити. Positioning — одностороння ціна tools/gflights.py ×1 (туди-назад ціна з GF).

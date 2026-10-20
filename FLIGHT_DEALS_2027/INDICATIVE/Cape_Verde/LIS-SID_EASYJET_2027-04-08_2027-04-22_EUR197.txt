@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Сал (SID)
+Return city: Сал (SID)
+Outbound: 2027-04-08
+Return: 2027-04-22
+Trip length: 14 днів
+Date window: B 16.04
+Outbound route: LIS-SID (прямий)
+Inbound route: SID-LIS (очікується прямий; не перевірено)
+Stopover: немає
+Airline(s): easyJet
+Ticket structure: один квиток туди-назад LIS-SID + окремо positioning з BCN
+Cabin baggage included: ні (лише personal item) — CABIN_BAG_ESTIMATE 80 EUR за обидва напрямки (перевірити на сайті перевізника)
+Airfare incl. cabin bag EUR: 197 + 80
+Positioning from Barcelona: BCN-LIS Vueling ~72 (08–20.04) (туди-назад BCN↔LIS, оцінка)
+TOTAL_FROM_BCN: ~349 EUR
+Transit/visa risk: Україна — Кабо-Верде: EASE/віза при прибутті; джерела розходяться — VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає (прямий рейс).
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20LIS%20to%20SID%20on%202027-04-08%20through%202027-04-22
+Found at (UTC): 2026-10-20
+Price history: 2026-10-20 197
+Notes: Зворотний рейс і ціну cabin bag перевірити. Positioning — одностороння ціна tools/gflights.py ×1 (туди-назад ціна з GF).

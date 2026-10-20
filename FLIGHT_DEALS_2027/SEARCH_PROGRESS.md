@@ -104,3 +104,14 @@ Positioning: BCN-LIS 04.2027 81–86; BCN-OPO 130 (TAP) / 117 (Vueling, апре
 Знахідки ≤400: 3 нові (OPO-BVC A, LIS-RAI A, LIS-VXE B) → ALERT.md. Падіння ≥15%: немає. OFF_WINDOW не перевірялось. WEEKLY.md оновлено.
 Веб: нових error fares до цих країн немає; Iberia промо MAD-EZE від 425 за тр. (продаж з 12.11.2026); Air Europa BCN-PTY 742 (14–17.04). easyJet cabin bag: travel-dealz +80, AiFly — включено (суперечність).
 Не перевірено: зворотні рейси, cabin bag напряму, OFF_WINDOW, stopover через IST для Мексики/Аргентини, Колумбія↔Панама ширше.
+
+## 2026-10-20 (запуск 9, агент, GF; 6 країн; вівторок)
+Скрипт gflights: 724 ok / 114 fail (+4 ok positioning). FAIL: LIS/OPO→Кабо-Верде A (29), B (12), CPT/JNB B (15), BCN/MAD→SID,BVC A (32 з 60), open-jaw BOG→CTG/MDE/PTY (16), via IST→PTY B та via LIS→SID B (0 результатів). Сирі дані: GF_RUNS/2026-10-20.csv. WebSearch 11, сторінок 5 (travel-dealz, infoviajera, aifly — ок; secretflying, visitukraine — 403).
+Охоплено: Cape Verde A+B (LIS, OPO, BCN, MAD); ПАР (BCN, MAD A/B; FCO, MXP B; via IST A); Мексика (BCN, MAD A+B; open-jaw MEX→CUN A); Колумбія/Панама (BCN, MAD A+B; FRA, CDG A; open-jaw BOG→CTG/MDE/PTY); Аргентина (BCN, MAD A+B; EZE→AEP B).
+Найнижче (туди-назад / open-jaw / via IST):
+- Cape Verde A: LIS-BVC/VXE easyJet 102, LIS-SID 103; B: LIS-BVC 179.
+- ПАР A BCN-JNB 520, B MXP-JNB 560 / via IST A 896. Колумбія A FRA-BOG 752, B MAD-BOG 763 / OJ B 1185. Панама A FRA-PTY 690, B BCN-PTY 709. Мексика A MAD-CUN 718, B MAD-CUN 742 / OJ A 982. Аргентина A MAD-EZE 926, B BCN-EZE 882 / OJ B 1573.
+Positioning: BCN-LIS 134–158 (січ.), ~67–77 (кв.); BCN-OPO 130.
+Знахідки ≤400: 4 нові Кабо-Верде (LIS-SID TAP 186 A, LIS-VXE 118 A, OPO-SID 124 A, LIS-SID 197 B) → ALERT.md. ≤300: немає. Падіння ≥15%: немає. OFF_WINDOW не перевірялось. Тижневий звіт: не понеділок.
+Веб: error fares до цих країн немає (secretflying LatAm open-jaw €152 — липень 2026, імовірно закінчився); Iberia MAD-EZE від 425 за тр. (продаж з 12.11.2026, без багажу, блекаут 26.12–19.01 для рейсів з Аргентини); easyJet cabin bag: travel-dealz (2024) +80, AiFly — включено (суперечність); віза Кабо-Верде для українців — джерела розходяться.
+Не перевірено: зворотні рейси, cabin bag напряму, OFF_WINDOW, Колумбія↔Панама, Mexico/Argentina via IST.
