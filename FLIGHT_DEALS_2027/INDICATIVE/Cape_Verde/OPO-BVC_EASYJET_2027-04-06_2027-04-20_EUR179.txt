@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Боа-Вішта (BVC)
+Return city: Боа-Вішта (BVC)
+Outbound: 2027-04-06
+Return: 2027-04-20
+Trip length: 14 днів
+Date window: B 16.04
+Outbound route: OPO-BVC (easyJet)
+Inbound route: BVC-OPO (очікується; не перевірено)
+Stopover: немає
+Airline(s): easyJet
+Ticket structure: один квиток туди-назад OPO-BVC + окремо positioning BCN↔OPO
+Cabin baggage included: ні (personal item) — CABIN_BAG_ESTIMATE 80 EUR (перевірити)
+Airfare incl. cabin bag EUR: OPO-BVC_EASYJET_2027-04-06_2027-04-20_EUR179.txt0
+Positioning from Barcelona: OPO-BVC_EASYJET_2027-04-06_2027-04-20_EUR179.txt1
+TOTAL_FROM_BCN: OPO-BVC_EASYJET_2027-04-06_2027-04-20_EUR179.txt2
+Transit/visa risk: Україна — Кабо-Верде: EASE/віза при прибутті; джерела розходяться — VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає.
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20OPO%20to%20BVC%20on%202027-04-06%20through%202027-04-20
+Found at (UTC): 2026-10-21
+Price history: 2026-10-21 179
+Notes: OPO-BVC_EASYJET_2027-04-06_2027-04-20_EUR179.txt3

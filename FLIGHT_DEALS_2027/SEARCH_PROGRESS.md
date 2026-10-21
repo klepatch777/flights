@@ -116,3 +116,12 @@ Positioning: BCN-LIS 134–158 (січ.), ~67–77 (кв.); BCN-OPO 130.
 Веб: error fares до цих країн немає (secretflying LatAm open-jaw €152 — липень 2026, імовірно закінчився); Iberia MAD-EZE від 425 за тр. (продаж з 12.11.2026, без багажу, блекаут 26.12–19.01 для рейсів з Аргентини); easyJet cabin bag: travel-dealz (2024) +80, AiFly — включено (суперечність); віза Кабо-Верде для українців — джерела розходяться.
 Не перевірено: зворотні рейси, cabin bag напряму, OFF_WINDOW, Колумбія↔Панама, Mexico/Argentina via IST.
 Доповнення (2026-10-20): OFF_WINDOW Колумбія і Аргентина (BCN, MAD; 05.01–15.12.2027, крок 14, --max-price 300): 300 ok / 0 fail, результатів <300 немає (сирі дані не зберігались — порожні). Усього за день: 1024 ok запитів скрипта.
+
+## 2026-10-21 (запуск 10, агент, GF; 6 країн; середа)
+Скрипт gflights: ~2130 рядків результатів, 155 FAIL-рядків у stderr / ~40 «0 results» (34 команди + 4 positioning); сирі дані: GF_RUNS/2026-10-21.csv. WebSearch 12, сторінок 5 (travel-dealz ×2, aifly, flytap — ок; secretflying — 403).
+Охоплено: Cape Verde A+B (LIS, OPO, BCN, MAD; open-jaw LIS→SID/ BVC,RAI,VXE; via LIS); ПАР (BCN, MAD, IST; open-jaw CPT↔JNB); Колумбія/Панама (BCN, MAD, CDG; open-jaw MAD→BOG/CTG,MDE,PTY; via IST→PTY); Мексика (BCN, MAD, AMS; open-jaw MEX→CUN); Аргентина (BCN, MAD, FRA; via IST).
+Найнижче (A / B): Cape Verde LIS-BVC 102 / 179 (open-jaw 115 / 194; TAP LIS-SID 187 / 219); ПАР BCN-JNB 520 / MAD-CPT 649; Колумбія CDG-BOG 790 / MAD-BOG 763; Панама MAD-PTY 696 / 597; Мексика MAD-CUN 718 / 743; Аргентина MAD-EZE 895 / BCN-EZE 882. Open-jaw LatAm/ПАР 958–1160; via IST BCN→PTY A 751.
+Positioning: BCN-LIS 04.2027 81; BCN-OPO 06–20.04 110.
+Нові ≤400: 3 (B: TAP LIS-SID 219 і LIS-BVC 219 → ~300; easyJet OPO-BVC 179 → ~369) → ALERT.md. Падіння ≥15%: немає. OFF_WINDOW не перевірялось. Тижневий звіт: не понеділок.
+Веб: error fares немає; TAP: LIS-SID 209–219 (кв.–чер. 2027), cabin bag не вказано; AiFly: easyJet LIS-SID cabin bag 45×36×20 включено, travel-dealz (2025) +80 — суперечність зберігається.
+Не перевірено: зворотні рейси, cabin bag напряму, OFF_WINDOW.

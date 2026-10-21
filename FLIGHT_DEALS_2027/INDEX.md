@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-10-20 (UTC, GF; 6 країн: Cape Verde, South Africa, Colombia, Panama, Mexico, Argentina)
+Останній запуск: 2026-10-21 (UTC, GF; 6 країн: Cape Verde, South Africa, Colombia, Panama, Mexico, Argentina)
 
 Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File
 
@@ -22,11 +22,14 @@ Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN
 | A | Cape Verde | LIS-VXE (easyJet) | 2027-01-27 – 2027-02-06 | 10 | easyJet | 118 (+80 cabin bag) | ~332 (positioning 134) | INDICATIVE_GF VISA_CHECK | 2026-10-20 | INDICATIVE/Cape_Verde/LIS-VXE_EASYJET_2027-01-27_2027-02-06_EUR118.txt |
 | A | Cape Verde | OPO-SID (easyJet) | 2027-01-25 – 2027-02-04 | 10 | easyJet | 124 (+80 cabin bag) | ~334 (positioning 130) | INDICATIVE_GF VISA_CHECK | 2026-10-20 | INDICATIVE/Cape_Verde/OPO-SID_EASYJET_2027-01-25_2027-02-04_EUR124.txt |
 | B | Cape Verde | LIS-SID (easyJet) | 2027-04-08 – 2027-04-22 | 14 | easyJet | 197 (+80 cabin bag) | ~349 (positioning 72) | INDICATIVE_GF VISA_CHECK | 2026-10-20 | INDICATIVE/Cape_Verde/LIS-SID_EASYJET_2027-04-08_2027-04-22_EUR197.txt |
+| B | Cape Verde | LIS-SID (TAP) | 2027-04-08 – 2027-04-22 | 14 | TAP | 219 (cabin bag TAP — перевірити) | ~300 (positioning 81) | INDICATIVE_GF VISA_CHECK | 2026-10-21 | INDICATIVE/Cape_Verde/LIS-SID_TP_2027-04-08_2027-04-22_EUR219.txt |
+| B | Cape Verde | LIS-BVC (TAP) | 2027-04-06 – 2027-04-20 | 14 | TAP | 219 (cabin bag TAP — перевірити) | ~300 (positioning ~81) | INDICATIVE_GF VISA_CHECK | 2026-10-21 | INDICATIVE/Cape_Verde/LIS-BVC_TP_2027-04-06_2027-04-20_EUR219.txt |
+| B | Cape Verde | OPO-BVC (easyJet), positioning BCN-OPO 110 | 2027-04-06 – 2027-04-20 | 14 | easyJet | 179 (+80 cabin bag) | ~369 | INDICATIVE_GF VISA_CHECK | 2026-10-21 | INDICATIVE/Cape_Verde/OPO-BVC_EASYJET_2027-04-06_2027-04-20_EUR179.txt |
 
 ## OVER BUDGET
 | A | Cape Verde | LIS-SID (TAP) | 2027-01-27 – 2027-02-05 | 9 | TAP | 219 | ~370+ | INDICATIVE | 2026-10-17 | INDICATIVE/Cape_Verde/LIS-SID_TP_2027-01-27_2027-02-05_EUR219.txt |
 
-Найнижче по інших країнах (туди-назад, GF, 2026-10-20, >400): South Africa A BCN-JNB 520 (Air Europa), B MXP-JNB 560; Panama A FRA-PTY 690 / MAD-PTY 696, B BCN-PTY 709; Mexico A MAD-CUN 718, B MAD-CUN 742; Colombia A FRA-BOG 752, B MAD-BOG 763; Argentina A MAD-EZE 926, B BCN-EZE 882.
+Найнижче по інших країнах (туди-назад, GF, 2026-10-21, >400): South Africa A BCN-JNB 520 (Air Europa), B IST-JNB 693 / MAD-CPT 649; Panama A MAD-PTY 696, B MAD-PTY 597; Mexico A MAD-CUN 718, B MAD-CUN 743; Colombia A CDG-BOG 790, B MAD-BOG 763; Argentina A MAD-EZE 895 (KLM), B BCN-EZE 882.
 
 ## INDICATIVE
 Див. таблиці вище (усі з Google Flights, не перевірені бронюванням).
@@ -36,6 +39,7 @@ Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN
 Cape Verde: A LIS→SID, VXE→LIS easyJet 118; LIS→SID, BVC→LIS 123; B LIS→SID, BVC→LIS 194 (див. вище); LIS→SID, BVC→LIS easyJet 118 (17.10); LIS→SID, RAI→LIS 179. Colombia BCN→BOG, MDE→BCN B 1232; Mexico MAD→MEX, CUN→MAD A 905 (дорого).
 
 ## STOPOVER (IST та ін.)
+2026-10-21: BCN via IST →PTY A від 751; BCN via LIS→SID — дорожче за прямий LIS-SID+positioning; open-jaw ПАР CPT→JNB A 958, Mexico MEX→CUN A 1003 / B 1160, Colombia (MAD→BOG, CTG/MDE/PTY) A 1130+ / B 1079+ — далеко за бюджетом.
 2026-10-20: BCN via IST (1–2 дні) → CPT A від 896; open-jaw A: MEX→CUN 982, BOG→CTG 1341, BOG→MDE 1185 (B); EZE→AEP B 1573 — далеко за бюджетом; via IST →PTY B та BCN via LIS→SID B — 0 результатів.
 2026-10-19: BCN via LIS (2 дні) → SID, A 26.01–09.02: 325 (Iberia BCN-MAD-LIS + easyJet LIS-SID + TAP назад; +cabin bag ≈405, поза бюджетом, ночівля в LIS не враховано). BCN via IST → CPT A 896 (2 дні IST), → BOG A 1411; B via IST →PTY — без результатів. Далеко за бюджетом.
 

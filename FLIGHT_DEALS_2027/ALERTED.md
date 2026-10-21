@@ -20,3 +20,6 @@
 - 2026-10-20 | Cape Verde | LIS-VXE | 2027-01-27–2027-02-06 | easyJet | 118 EUR (total ~332) | GF
 - 2026-10-20 | Cape Verde | OPO-SID | 2027-01-25–2027-02-04 | easyJet | 124 EUR (total ~334) | GF
 - 2026-10-20 | Cape Verde | LIS-SID | 2027-04-08–2027-04-22 | easyJet | 197 EUR (total ~349) | GF
+- 2026-10-21 | Cape Verde | LIS-SID | 2027-04-08–2027-04-22 | TAP | 219 EUR (total ~300) | GF
+- 2026-10-21 | Cape Verde | LIS-BVC | 2027-04-06–2027-04-20 | TAP | 219 EUR (total ~300) | GF
+- 2026-10-21 | Cape Verde | OPO-BVC | 2027-04-06–2027-04-20 | easyJet | 179 EUR (total ~369) | GF
