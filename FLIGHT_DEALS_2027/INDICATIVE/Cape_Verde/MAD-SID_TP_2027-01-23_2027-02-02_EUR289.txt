@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Сал (SID)
+Return city: Сал (SID)
+Outbound: 2027-01-23
+Return: 2027-02-02
+Trip length: 10 днів
+Date window: A 29.01
+Outbound route: MAD-LIS-SID (TAP)
+Inbound route: очікується зворотний той самий маршрут; не перевірено
+Stopover: немає
+Airline(s): Tap Air Portugal
+Ticket structure: один квиток туди-назад + окремо positioning BCN↔MAD 99 EUR
+Cabin baggage included: TAP: ручна поклажа зазвичай включена — перевірити
+Airfare incl. cabin bag EUR: 289 (+0–80 cabin bag)
+Positioning from Barcelona: 99
+TOTAL_FROM_BCN: ~388–468
+Transit/visa risk: Україна — Кабо-Верде: EASE/віза при прибутті; джерела розходяться — VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає.
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20MAD%20to%20SID%20on%202027-01-23%20through%202027-02-02
+Found at (UTC): 2026-10-22
+Price history: 2026-10-22 289
+Notes: Positioning BCN-MAD Iberia 99 (23.01) за GF. Дешевший варіант прямо з BCN: BCN-SID TAP від 289–304.

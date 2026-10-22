@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Сал (SID)
+Return city: Сал (SID)
+Outbound: 2027-04-08
+Return: 2027-04-22
+Trip length: 14 днів
+Date window: B 16.04
+Outbound route: OPO-SID (easyJet)
+Inbound route: очікується зворотний той самий маршрут; не перевірено
+Stopover: немає
+Airline(s): easyJet
+Ticket structure: один квиток туди-назад + окремо positioning BCN↔OPO 117 EUR
+Cabin baggage included: easyJet: лише малий bag; великий cabin bag ~ +80 за обидва напрямки (суперечливі джерела: 45 EUR/напрямок)
+Airfare incl. cabin bag EUR: 197 + ~80
+Positioning from Barcelona: 117
+TOTAL_FROM_BCN: ~394
+Transit/visa risk: Україна — Кабо-Верде: EASE/віза при прибутті; джерела розходяться — VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає.
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20OPO%20to%20SID%20on%202027-04-08%20through%202027-04-22
+Found at (UTC): 2026-10-22
+Price history: 2026-10-22 197
+Notes: Positioning BCN-OPO Vueling 117 (08–22.04). Дорожче за LIS-SID easyJet 197 (total ~349).
