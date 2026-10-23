@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Мінделу, Сан-Вісенте (VXE)
+Return city: Мінделу (VXE)
+Outbound: 2027-04-12
+Return: 2027-04-26
+Trip length: 14 днів
+Date window: B 16.04
+Outbound route: OPO-VXE (easyJet, прямий)
+Inbound route: очікується зворотний той самий маршрут; не перевірено
+Stopover: немає
+Airline(s): easyJet
+Ticket structure: один квиток туди-назад + окремо positioning BCN↔OPO ~117 EUR (Vueling, квітень)
+Cabin baggage included: easyJet: лише малий bag; великий cabin bag ~ +80 за обидва напрямки (джерела суперечать: +80 travel-dealz vs включено aifly)
+Airfare incl. cabin bag EUR: 195 + ~80 = ~275
+Positioning from Barcelona: ~117
+TOTAL_FROM_BCN: ~392
+Transit/visa risk: Україна — Кабо-Верде: EASE за 5 днів + віза при прибутті (~44 EUR) за частиною джерел; VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає.
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20OPO%20to%20VXE%20on%202027-04-12%20through%202027-04-26
+Found at (UTC): 2026-10-23
+Price history: 2026-10-23 195
+Notes: Дорожче за LIS-VXE/LIS-SID з positioning; сума близька до межі 400.

@@ -135,3 +135,11 @@ Positioning: BCN-OPO 08–22.04 117 (Vueling); BCN-MAD 23.01–02.02 99 (Iberia)
 Веб: error fares немає; TAP: MAD-BVC 289 (09–19.01.2027), BCN-SID/VXE 399 (31.12–12.01); Iberia MAD-EZE від 425/трає (продаж з 12.11); easyJet cabin bag: +80 (travel-dealz 2024) vs 45/напрямок (mydealz) — суперечність; Кабо-Верде віза — джерела розходяться, EASE за 5 днів.
 Примітка: існуючі файли INDICATIVE за 10-21 (LIS-SID_TP…EUR219 тощо) мають зіпсовані рядки (Airfare/TOTAL/Notes) — не виправлялось.
 Не перевірено: зворотні рейси, cabin bag напряму, OFF_WINDOW.
+
+## 2026-10-23 (запуск 12, агент, GF; 6 країн; п'ятниця)
+Скрипт gflights: 38 команд, ~2236 рядків результатів (GF_RUNS/2026-10-23.csv), 128 FAIL-рядків у stderr. WebSearch 10, сторінок 5 (travel-dealz, aifly, flytap ×2 — ок; secretflying — 403).
+Охоплено: Cape Verde A+B (LIS, OPO, BCN, MAD; open-jaw LIS→SID/ BVC,RAI,VXE; via LIS); ПАР (BCN, MAD, IST; open-jaw CPT↔JNB; via IST); Колумбія/Панама (BCN, MAD, AMS, FRA; open-jaw MAD→BOG/CTG,MDE,PTY; via IST); Мексика (BCN, MAD; open-jaw MEX↔CUN; via IST); Аргентина (BCN, MAD, FRA; EZE→AEP; via IST); OFF_WINDOW Мексика/Аргентина/Колумбія — нічого <300.
+Найнижче (A / B): Cape Verde LIS-BVC 102 / 179 (OJ 115 / 195; OPO-VXE B 195); ПАР BCN-JNB 520 / MAD-CPT 649; Колумбія FRA-BOG 752 / 754; Панама MAD-PTY 693 / 506; Мексика MAD-CUN 716 / 736; Аргентина MAD-EZE 922 / BCN-EZE 882. Open-jaw 770–1831; via IST >1100.
+Нові ≤400: 1 (OPO-VXE B easyJet 195 → ~392) → ALERT.md. Падіння ≥15%: Панама B 596→506. Positioning BCN-OPO ~117 (відоме). Тижневий звіт: не п'ятниця/понеділок — не робився.
+Веб: error fares немає (secretflying LatAm open-jaw €152 — липень 2026, закінчився); travel-dealz: easyJet cabin bag +€80 (2025), aifly — включено (суперечність); TAP LIS-SID 219 (29.01–03.02.2027), LIS-BVC 209; віза Кабо-Верде: EASE за 5 днів + віза при прибутті ~44 EUR за частиною джерел.
+Не перевірено: зворотні рейси, cabin bag напряму.

@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Panama
+Destination city: Панама (PTY)
+Return city: Панама (PTY)
+Outbound: 2027-04-06
+Return: 2027-04-18
+Trip length: 12 днів
+Date window: B 16.04
+Outbound route: MAD-BOG-PTY (Avianca)
+Inbound route: не перевірено
+Stopover: пересадка в Боготі
+Airline(s): Avianca
+Ticket structure: один квиток туди-назад
+Cabin baggage included: Avianca economy — перевірити (базовий тариф може не включати cabin bag)
+Airfare incl. cabin bag EUR: 506 (+ можлива доплата)
+Positioning from Barcelona: BCN-MAD ~99
+TOTAL_FROM_BCN: ~605
+Transit/visa risk: Панама/Колумбія — безвіз для українців (за агрегаторами); немає США/Британії/Канади.
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20MAD%20to%20PTY%20on%202027-04-06%20through%202027-04-18
+Found at (UTC): 2026-10-23
+Price history: 2026-10-22 596; 2026-10-23 506 (−15%)
+Notes: Падіння ціни, але вище за бюджет 400.
