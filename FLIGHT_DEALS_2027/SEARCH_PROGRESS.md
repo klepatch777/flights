@@ -143,3 +143,11 @@ Positioning: BCN-OPO 08–22.04 117 (Vueling); BCN-MAD 23.01–02.02 99 (Iberia)
 Нові ≤400: 1 (OPO-VXE B easyJet 195 → ~392) → ALERT.md. Падіння ≥15%: Панама B 596→506. Positioning BCN-OPO ~117 (відоме). Тижневий звіт: не п'ятниця/понеділок — не робився.
 Веб: error fares немає (secretflying LatAm open-jaw €152 — липень 2026, закінчився); travel-dealz: easyJet cabin bag +€80 (2025), aifly — включено (суперечність); TAP LIS-SID 219 (29.01–03.02.2027), LIS-BVC 209; віза Кабо-Верде: EASE за 5 днів + віза при прибутті ~44 EUR за частиною джерел.
 Не перевірено: зворотні рейси, cabin bag напряму.
+
+## 2026-10-24 (запуск 13, агент, GF; 6 країн; субота)
+Скрипт gflights: 50 команд (48+2 positioning/oneway), ~2750 рядків (GF_RUNS/2026-10-24.csv), ~245 FAIL-рядків у stderr, ~40 «0 results». WebSearch 10, сторінок 5 (travel-dealz ×2, flytap — ок; secretflying, fly4free — 403).
+Охоплено: Cape Verde A+B (LIS, OPO, BCN, MAD; open-jaw LIS→SID/BVC,RAI,VXE; via LIS); ПАР (BCN, MAD, IST; open-jaw CPT↔JNB; via IST); Колумбія/Панама (BCN, MAD, CDG, AMS; open-jaw до BOG/CTG/MDE/PTY; via IST); Мексика (BCN, MAD; open-jaw MEX→CUN; via IST); Аргентина (BCN, MAD, FRA, CDG; EZE→AEP; via IST).
+Найнижче (A / B): Cape Verde LIS-BVC 102 / 179 (OJ 115 / 189); ПАР BCN-JNB 520 / MAD-CPT 649; Колумбія CDG-BOG 737 / MAD-CTG 708; Панама MAD-PTY 671 / 480 (KLM via AMS); Мексика MAD-CUN 721 / 742; Аргентина MAD-EZE 922 / BCN-EZE 882. Open-jaw (не CV) 851–1598; via IST 916–1701.
+Нове ≤400: OPO-VXE A easyJet 120 (→ ~324, positioning BCN-OPO ~124) → ALERT.md. Падіння ≥15%: немає. OFF_WINDOW не перевірялось. Тижневий звіт: не понеділок.
+Веб: error fares немає (United open-jaw €432 Європа→Колумбія — США, заборонено); TAP LIS-SID 219 (29.01–03.02), 214 (20–30.05); travel-dealz easyJet cabin bag +80 (стаття 26.07.2024, expired), пошук: тільки маленька сумка безкоштовна, скарги 2026 на доплату в LIS/OPO — консервативно +80; віза Кабо-Верде: EASE + віза при прибутті ~44 EUR.
+Не перевірено: зворотні рейси для не-CV, cabin bag напряму на easyjet.com, OFF_WINDOW.

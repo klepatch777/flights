@@ -27,3 +27,4 @@
 - 2026-10-22 | Cape Verde | OPO-SID | 2027-04-08–2027-04-22 | easyJet | 197 EUR (total ~394) | GF
 - 2026-10-23 | Cape Verde | OPO-VXE | 2027-04-12–2027-04-26 | easyJet | 195 EUR (total ~392) | GF
 - 2026-10-23 | падіння | Panama B 596→506 (−15%), MAD-PTY Avianca (total ~605) | GF
+- 2026-10-24 | Cape Verde | OPO-VXE | 2027-01-27–2027-02-06 | easyJet | 120 EUR (total ~324, positioning BCN-OPO ~124) | GF
