@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-10-24 (UTC, GF; 6 країн: Cape Verde, South Africa, Colombia, Panama, Mexico, Argentina)
+Останній запуск: 2026-10-25 (UTC, GF; 6 країн: Cape Verde, South Africa, Colombia, Panama, Mexico, Argentina)
 
 Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File
 
@@ -35,6 +35,8 @@ Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN
 | A | Cape Verde | LIS-SID (TAP) | 2027-01-27 – 2027-02-05 | 9 | TAP | 219 | ~370+ | INDICATIVE | 2026-10-17 | INDICATIVE/Cape_Verde/LIS-SID_TP_2027-01-27_2027-02-05_EUR219.txt |
 
 Найнижче по інших країнах (туди-назад, GF, 2026-10-22, >400): South Africa A BCN-JNB 520, B MXP-JNB 560; Panama A FRA-PTY 690, B MAD-PTY 596; Mexico A MAD-CUN 714, B MAD-CUN 735; Colombia A FRA-BOG 752, B FRA-BOG 754; Argentina A MAD-EZE 910, B BCN-EZE 882. (Попередній зріз 2026-10-21, >400): South Africa A BCN-JNB 520 (Air Europa), B IST-JNB 693 / MAD-CPT 649; Panama A MAD-PTY 696, B MAD-PTY 597; Mexico A MAD-CUN 718, B MAD-CUN 743; Colombia A CDG-BOG 790, B MAD-BOG 763; Argentina A MAD-EZE 895 (KLM), B BCN-EZE 882.
+
+2026-10-25 (>400): ПАР A BCN-JNB 520, B MXP-JNB 560; Колумбія A FRA-BOG 752, B FRA-BOG 754; Панама A BCN-PTY 677, B MAD-PTY 572; Мексика A MAD-CUN 719, B MAD-CUN 812; Аргентина A MAD-EZE 922, B BCN-EZE 882.
 
 2026-10-24 (>400): ПАР A BCN-JNB 520, B MAD-CPT 649; Колумбія A CDG-BOG 737, B MAD-CTG 708; Панама A MAD-PTY 671, B MAD-PTY KLM 480 (via AMS; −5% до 10-23); Мексика A MAD-CUN 721, B MAD-CUN 742; Аргентина A MAD-EZE 922, B BCN-EZE 882.
 
