@@ -167,3 +167,12 @@ Positioning: BCN-OPO 08–22.04 117 (Vueling); BCN-MAD 23.01–02.02 99 (Iberia)
 Нових ≤400 немає (усі CV вже в ALERTED/INDEX). Падіння ≥15% (price_trends): немає. OFF_WINDOW Панама/Мексика <300: немає. ALERT.md не змінювався, лист не надсилався. WEEKLY.md оновлено (понеділок).
 Веб: error fares немає (United open-jaw €432 — США, заборонено); TAP LIS-SID 214–219 (кв.–чер./лют.–бер. 2027), LIS-BVC 219; easyJet: малий кабін-бег безкоштовно, великий £6–35 онлайн — +80 EUR консервативно; віза Кабо-Верде для українців — джерела розходяться (безвіз vs 44 EUR на прибутті), EASE за 5 днів — VISA_CHECK_REQUIRED; Iberia MAD-EZE від 425/трає (з 12.11.2026).
 Не перевірено: зворотні рейси, cabin bag напряму на easyjet.com.
+
+## 2026-10-27 (запуск 16, агент, GF; 6 країн; вівторок)
+Скрипт gflights: 27 команд (26 + positioning), 2705 рядків результатів (GF_RUNS/2026-10-27.csv), 149 FAIL-рядків у stderr. WebSearch 10, сторінок 5 (flytap, travel-dealz — ок; secretflying ×3 — 403).
+Охоплено: Cape Verde A+B (LIS, BCN, OPO; open-jaw LIS→SID/BVC,RAI,VXE; via LIS); ПАР (BCN, MAD, FCO A, MXP B; open-jaw BCN→CPT,JNB; via IST A); Колумбія/Панама (BCN, MAD, CDG; open-jaw MAD→BOG/CTG,MDE,PTY); Мексика (BCN, MAD, AMS; open-jaw MEX↔CUN; via IST); Аргентина (BCN, MAD, FRA; MAD→EZE/AEP A; via IST B). MAD для Кабо-Верде не запускався.
+Найнижче (A / B): Cape Verde LIS-SID 112 / OPO-SID 155 (LIS-VXE B 169; OJ 116 / 190); ПАР BCN-JNB 520 / MXP-JNB 560; Колумбія/Панама: BCN-PTY 591 / MAD-PTY 551; Мексика MAD-CUN 720 / 746; Аргентина MAD-EZE 922 / BCN-EZE 882. Open-jaw (не CV) 780–1596; via IST 919–1635. (Колумбія — мінімум по BOG/CTG/MDE окремо не виділявся.)
+Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
+Нові ≤400: 2 (B: LIS-VXE easyJet 169 → ~342; OPO-SID easyJet 155 → ~356) → ALERT.md. ≤300: немає. Падіння ≥15% (price_trends): немає. OFF_WINDOW не перевірялось. Тижневий звіт: не понеділок.
+Веб: error fares немає (secretflying LatAm open-jaw €152 — липень 2026, імовірно закінчився); United open-jaw €432 — США, заборонено; TAP Boa Vista: безкоштовна зупинка в LIS/OPO до 10 днів; easyJet: мала сумка безкоштовно, велика від £5.99 (+80 EUR лишається консервативною); віза Кабо-Верде для українців — джерела розходяться (44,40 EUR на прибутті vs безвіз), EASE за 5 днів; Панама/Колумбія — безвіз 90 днів за агрегаторами.
+Не перевірено: зворотні рейси, cabin bag напряму на easyjet.com, OFF_WINDOW.

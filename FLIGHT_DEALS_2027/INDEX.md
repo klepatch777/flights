@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-10-26 (UTC, GF; 6 країн: Cape Verde, South Africa, Colombia, Panama, Mexico, Argentina)
+Останній запуск: 2026-10-27 (UTC, GF; 6 країн: Cape Verde, South Africa, Colombia, Panama, Mexico, Argentina)
 
 Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File
 
@@ -30,11 +30,15 @@ Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN
 | B | Cape Verde | OPO-SID (easyJet), positioning BCN-OPO 117 | 2027-04-08 – 2027-04-22 | 14 | easyJet | 197 (+~80 cabin bag) | ~394 | INDICATIVE_GF VISA_CHECK | 2026-10-22 | INDICATIVE/Cape_Verde/OPO-SID_EASYJET_2027-04-08_2027-04-22_EUR197.txt |
 | B | Cape Verde | OPO-VXE (easyJet), positioning BCN-OPO ~117 | 2027-04-12 – 2027-04-26 | 14 | easyJet | 195 (+~80 cabin bag) | ~392 | INDICATIVE_GF VISA_CHECK | 2026-10-23 | INDICATIVE/Cape_Verde/OPO-VXE_EASYJET_2027-04-12_2027-04-26_EUR195.txt |
 | A | Cape Verde | OPO-VXE (easyJet), positioning BCN-OPO ~124 | 2027-01-27 – 2027-02-06 | 10 | easyJet | 120 (+~80 cabin bag) | ~324 | INDICATIVE_GF VISA_CHECK | 2026-10-24 | INDICATIVE/Cape_Verde/OPO-VXE_EASYJET_2027-01-27_2027-02-06_EUR120.txt |
+| B | Cape Verde | LIS-VXE (easyJet), positioning BCN-LIS 93 | 2027-04-12 – 2027-04-26 | 14 | easyJet | 169 (+80 cabin bag) | ~342 | INDICATIVE_GF VISA_CHECK | 2026-10-27 | INDICATIVE/Cape_Verde/LIS-VXE_EASYJET_2027-04-12_2027-04-26_EUR169.txt |
+| B | Cape Verde | OPO-SID (easyJet), positioning BCN-OPO 121 | 2027-04-12 – 2027-04-22 | 10 | easyJet | 155 (+80 cabin bag) | ~356 | INDICATIVE_GF VISA_CHECK | 2026-10-27 | INDICATIVE/Cape_Verde/OPO-SID_EASYJET_2027-04-12_2027-04-22_EUR155.txt |
 
 ## OVER BUDGET
 | A | Cape Verde | LIS-SID (TAP) | 2027-01-27 – 2027-02-05 | 9 | TAP | 219 | ~370+ | INDICATIVE | 2026-10-17 | INDICATIVE/Cape_Verde/LIS-SID_TP_2027-01-27_2027-02-05_EUR219.txt |
 
 Найнижче по інших країнах (туди-назад, GF, 2026-10-22, >400): South Africa A BCN-JNB 520, B MXP-JNB 560; Panama A FRA-PTY 690, B MAD-PTY 596; Mexico A MAD-CUN 714, B MAD-CUN 735; Colombia A FRA-BOG 752, B FRA-BOG 754; Argentina A MAD-EZE 910, B BCN-EZE 882. (Попередній зріз 2026-10-21, >400): South Africa A BCN-JNB 520 (Air Europa), B IST-JNB 693 / MAD-CPT 649; Panama A MAD-PTY 696, B MAD-PTY 597; Mexico A MAD-CUN 718, B MAD-CUN 743; Colombia A CDG-BOG 790, B MAD-BOG 763; Argentina A MAD-EZE 895 (KLM), B BCN-EZE 882.
+
+2026-10-27 (>400): ПАР A BCN-JNB 520, B MXP-JNB 560; Колумбія/Панама A/B: Панама BCN-PTY 591 / MAD-PTY 551; Мексика A MAD-CUN 720, B MAD-CUN 746; Аргентина A MAD-EZE 922, B BCN-EZE 882. Open-jaw (не CV) 780–1596; via IST 919–1635. CV open-jaw A LIS→SID,VXE→LIS 116; B LIS→SID,BVC→LIS 190.
 
 2026-10-26 (>400): ПАР A BCN-JNB 520, B MXP-JNB 560; Колумбія A CDG-BOG 737, B MAD-CTG 672; Панама A BCN-PTY 591, B MAD-PTY 551; Мексика A MAD-CUN 720, B BCN-MEX 779; Аргентина A MAD-EZE 922, B BCN-EZE 882. Open-jaw (не CV) 842–1308; via IST 1113–1287; CV open-jaw A LIS→SID,VXE→LIS 116, B 189; BCN via LIS→SID A 300.
 

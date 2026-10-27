@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF VISA_CHECK_REQUIRED
+Country: Cape Verde
+Destination city: Mindelo (São Vicente)
+Return city: Mindelo (São Vicente)
+Outbound: 2027-04-12
+Return: 2027-04-26
+Trip length: 14 днів
+Date window: B (16.04.2027)
+Outbound route: LIS-VXE (easyJet, прямий)
+Inbound route: VXE-LIS (за GF, туди-назад; зворотний рейс окремо не перевірено)
+Stopover: немає
+Airline(s): easyJet
+Ticket structure: один квиток туди-назад LIS-VXE, EUR169
+Cabin baggage included: ні для великого cabin bag (консервативна доплата +80 EUR; малу сумку 45x36x20 безкоштовно)
+Airfare incl. cabin bag EUR: 169 + 80 = 249
+Positioning from Barcelona: BCN<->LIS туди-назад 93 EUR (GF, 2027-04-11/25)
+TOTAL_FROM_BCN: ~342 EUR
+Transit/visa risk: прямий рейс, пересадок у США/Британії/Канаді немає. Віза/EASE для громадян України — джерела розходяться, VISA_CHECK_REQUIRED.
+Source URL: Google Flights via tools/gflights.py + https://www.google.com/travel/flights?q=Flights%20from%20LIS%20to%20VXE%20on%202027-04-12%20through%202027-04-26
+Found at (UTC): 2026-10-27
+Price history: 2026-10-27 EUR169 (було LIS-VXE_EASYJET_2027-04-12_2027-04-26_EUR169.txt0)
+Notes: Дешевше за раніше відомі дати. Перевірити ціну cabin bag на easyjet.com перед купівлею.
