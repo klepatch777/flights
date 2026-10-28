@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-10-27 (UTC, GF; 6 країн: Cape Verde, South Africa, Colombia, Panama, Mexico, Argentina)
+Останній запуск: 2026-10-28 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
 
 Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File
 
@@ -38,6 +38,8 @@ Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN
 
 Найнижче по інших країнах (туди-назад, GF, 2026-10-22, >400): South Africa A BCN-JNB 520, B MXP-JNB 560; Panama A FRA-PTY 690, B MAD-PTY 596; Mexico A MAD-CUN 714, B MAD-CUN 735; Colombia A FRA-BOG 752, B FRA-BOG 754; Argentina A MAD-EZE 910, B BCN-EZE 882. (Попередній зріз 2026-10-21, >400): South Africa A BCN-JNB 520 (Air Europa), B IST-JNB 693 / MAD-CPT 649; Panama A MAD-PTY 696, B MAD-PTY 597; Mexico A MAD-CUN 718, B MAD-CUN 743; Colombia A CDG-BOG 790, B MAD-BOG 763; Argentina A MAD-EZE 895 (KLM), B BCN-EZE 882.
 
+2026-10-28 (>400): ПАР A BCN-JNB 520, B BCN-CPT 699; Маврикій A MAD-MRU Saudia 708, B CDG-MRU Emirates 774; Колумбія A MAD-BOG 796, B MAD-CTG 673; Панама A BCN-PTY 591, B MAD-PTY 551; Мексика A BCN-CUN 752, B MAD-CUN 662; Аргентина A MAD-EZE 922, B MAD-EZE 882. Open-jaw (не CV) 853–1010+; via IST/LIS >1100 (CV via LIS 690).
+
 2026-10-27 (>400): ПАР A BCN-JNB 520, B MXP-JNB 560; Колумбія/Панама A/B: Панама BCN-PTY 591 / MAD-PTY 551; Мексика A MAD-CUN 720, B MAD-CUN 746; Аргентина A MAD-EZE 922, B BCN-EZE 882. Open-jaw (не CV) 780–1596; via IST 919–1635. CV open-jaw A LIS→SID,VXE→LIS 116; B LIS→SID,BVC→LIS 190.
 
 2026-10-26 (>400): ПАР A BCN-JNB 520, B MXP-JNB 560; Колумбія A CDG-BOG 737, B MAD-CTG 672; Панама A BCN-PTY 591, B MAD-PTY 551; Мексика A MAD-CUN 720, B BCN-MEX 779; Аргентина A MAD-EZE 922, B BCN-EZE 882. Open-jaw (не CV) 842–1308; via IST 1113–1287; CV open-jaw A LIS→SID,VXE→LIS 116, B 189; BCN via LIS→SID A 300.
@@ -72,3 +74,9 @@ Cape Verde: A LIS→SID, VXE→LIS easyJet 118; LIS→SID, BVC→LIS 123; B LIS�
 ## OFF_WINDOW <300
 2026-10-23: Мексика/Аргентина/Колумбія (BCN,MAD, 10.02–01.12.2027, крок 14): нічого <300.
 2026-10-20: Колумбія (BCN,MAD→BOG) і Аргентина (BCN,MAD→EZE), 05.01–15.12.2027, крок 14 дн.: нічого <300.
+
+## WEEKENDS
+Destination | Format | Dates | Out time | Back time | Airline | TOTAL EUR | Status | Found UTC | File
+| Mallorca | Сб–Пн | 2026-12-19 – 2026-12-21 | ? | ? | Vueling | ~82 | TIME_UNVERIFIED | 2026-10-28 | WEEKENDS/Mallorca/BCN-PMI_VUELING_2026-12-19_2026-12-21_EUR82.txt |
+| Menorca | Пт–Нд | 2026-12-18 – 2026-12-20 | ? | ? | Vueling | ~102 | TIME_UNVERIFIED | 2026-10-28 | WEEKENDS/Menorca/BCN-MAH_VUELING_2026-12-18_2026-12-20_EUR102.txt |
+Denmark/Sweden: найдешевше за запит — ARN KLM ~191 (28–30.11, з пересадками); CPH запити зазнали збою; до порогу 120 далеко.

@@ -1,0 +1,13 @@
+Destination: Menorca (MAH)
+Format: Пт–Нд
+Outbound: 2026-12-18, час НЕ ВЕРИФІКОВАНО, Vueling (BCN-MAH, 20 EUR)
+Return: 2026-12-20, час НЕ ВЕРИФІКОВАНО, Vueling (MAH-BCN, 32 EUR)
+Airline(s): Vueling
+Airfare EUR: 52 (два квитки в один бік)
+Cabin bag EUR: ~50 (оцінка)
+TOTAL EUR: ~102
+STATUS: TIME_UNVERIFIED (листа не надсилати)
+Source URL: Google Flights via tools/gflights.py --oneway
+Found at (UTC): 2026-10-28
+Price history: 2026-10-28 52
+Notes: Вище порогу 80 EUR.

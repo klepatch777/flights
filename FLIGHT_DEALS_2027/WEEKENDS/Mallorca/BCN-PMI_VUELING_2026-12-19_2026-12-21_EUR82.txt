@@ -1,0 +1,13 @@
+Destination: Mallorca (PMI)
+Format: Сб–Пн
+Outbound: 2026-12-19, час НЕ ВЕРИФІКОВАНО, Vueling (BCN-PMI, 18 EUR одним боком за Google Flights)
+Return: 2026-12-21, час НЕ ВЕРИФІКОВАНО, Vueling (PMI-BCN, 14 EUR)
+Airline(s): Vueling
+Airfare EUR: 32 (два квитки в один бік)
+Cabin bag EUR: ~50 (CABIN_BAG_ESTIMATE ~25 за відрізок)
+TOTAL EUR: ~82
+STATUS: TIME_UNVERIFIED (скрипт не показує час рейсів; листа не надсилати)
+Source URL: Google Flights via tools/gflights.py --oneway; https://www.google.com/travel/flights?q=Flights%20from%20BCN%20to%20PMI%20on%202026-12-19%20through%202026-12-21
+Found at (UTC): 2026-10-28
+Price history: 2026-10-28 32
+Notes: Вище порогу 80 після cabin bag; потрібна перевірка часу (виліт туди до 12:00, назад від 17:00).
