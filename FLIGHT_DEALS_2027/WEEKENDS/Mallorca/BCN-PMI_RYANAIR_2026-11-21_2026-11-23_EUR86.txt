@@ -1,0 +1,13 @@
+Destination: Mallorca (PMI)
+Format: Сб–Пн
+Outbound: 2026-11-21, час НЕ перевірено (скрипт не показує), BCN-PMI
+Return: 2026-11-23, час НЕ перевірено
+Airline(s): RYANAIR
+Airfare EUR: 36
+Cabin bag EUR: 50 (оцінка CABIN_BAG_ESTIMATE)
+TOTAL EUR: 86
+STATUS: TIME_UNVERIFIED (листа не надсилати)
+Source URL: Google Flights via tools/gflights.py; https://www.google.com/travel/flights?q=Flights%20from%20BCN%20to%20PMI%20on%202026-11-21%20through%202026-11-23
+Found at (UTC): 2026-10-29
+Price history: 2026-10-29 36
+Notes: перевірити час вильоту (до 12:00 туди, від 17:00 назад) на сайті перевізника.

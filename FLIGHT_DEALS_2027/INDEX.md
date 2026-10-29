@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-10-28 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
+Останній запуск: 2026-10-29 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
 
 Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File
 
@@ -37,6 +37,9 @@ Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN
 | A | Cape Verde | LIS-SID (TAP) | 2027-01-27 – 2027-02-05 | 9 | TAP | 219 | ~370+ | INDICATIVE | 2026-10-17 | INDICATIVE/Cape_Verde/LIS-SID_TP_2027-01-27_2027-02-05_EUR219.txt |
 
 Найнижче по інших країнах (туди-назад, GF, 2026-10-22, >400): South Africa A BCN-JNB 520, B MXP-JNB 560; Panama A FRA-PTY 690, B MAD-PTY 596; Mexico A MAD-CUN 714, B MAD-CUN 735; Colombia A FRA-BOG 752, B FRA-BOG 754; Argentina A MAD-EZE 910, B BCN-EZE 882. (Попередній зріз 2026-10-21, >400): South Africa A BCN-JNB 520 (Air Europa), B IST-JNB 693 / MAD-CPT 649; Panama A MAD-PTY 696, B MAD-PTY 597; Mexico A MAD-CUN 718, B MAD-CUN 743; Colombia A CDG-BOG 790, B MAD-BOG 763; Argentina A MAD-EZE 895 (KLM), B BCN-EZE 882.
+
+2026-10-29 (>400): ПАР A BCN-JNB 520, B MXP-JNB 561; Маврикій A MAD-MRU Saudia 708, B CDG-MRU Emirates 774; Колумбія A FRA-BOG 752, B MAD-CTG 708; Панама A FRA-PTY 690, B MAD-PTY 552; Мексика A FRA-CUN 690, B MAD-CUN 662; Аргентина A MAD-EZE 923, B 942. Open-jaw (не CV) 776–1799; via IST 1122+.
+2026-10-29 Кабо-Верде (лише відомі): A LIS-VXE 111, OJ LIS→SID,VXE→LIS 116; B OPO-BVC 177, LIS-BVC 180, OJ 189.
 
 2026-10-28 (>400): ПАР A BCN-JNB 520, B BCN-CPT 699; Маврикій A MAD-MRU Saudia 708, B CDG-MRU Emirates 774; Колумбія A MAD-BOG 796, B MAD-CTG 673; Панама A BCN-PTY 591, B MAD-PTY 551; Мексика A BCN-CUN 752, B MAD-CUN 662; Аргентина A MAD-EZE 922, B MAD-EZE 882. Open-jaw (не CV) 853–1010+; via IST/LIS >1100 (CV via LIS 690).
 
@@ -79,4 +82,8 @@ Cape Verde: A LIS→SID, VXE→LIS easyJet 118; LIS→SID, BVC→LIS 123; B LIS�
 Destination | Format | Dates | Out time | Back time | Airline | TOTAL EUR | Status | Found UTC | File
 | Mallorca | Сб–Пн | 2026-12-19 – 2026-12-21 | ? | ? | Vueling | ~82 | TIME_UNVERIFIED | 2026-10-28 | WEEKENDS/Mallorca/BCN-PMI_VUELING_2026-12-19_2026-12-21_EUR82.txt |
 | Menorca | Пт–Нд | 2026-12-18 – 2026-12-20 | ? | ? | Vueling | ~102 | TIME_UNVERIFIED | 2026-10-28 | WEEKENDS/Menorca/BCN-MAH_VUELING_2026-12-18_2026-12-20_EUR102.txt |
-Denmark/Sweden: найдешевше за запит — ARN KLM ~191 (28–30.11, з пересадками); CPH запити зазнали збою; до порогу 120 далеко.
+| Mallorca | Сб–Пн | 2026-11-21 – 2026-11-23 | ? | ? | Ryanair | ~86 | TIME_UNVERIFIED | 2026-10-29 | WEEKENDS/Mallorca/BCN-PMI_RYANAIR_2026-11-21_2026-11-23_EUR86.txt |
+| Menorca | Пт–Нд | 2026-12-11 – 2026-12-13 | ? | ? | Vueling | ~98 | TIME_UNVERIFIED | 2026-10-29 | WEEKENDS/Menorca/BCN-MAH_VUELING_2026-12-11_2026-12-13_EUR98.txt |
+| Denmark | Пт–Нд | 2026-12-11 – 2026-12-13 | ? | ? | Vueling | ~199 | TIME_UNVERIFIED | 2026-10-29 | WEEKENDS/Denmark/BCN-CPH_VUELING_2026-12-11_2026-12-13_EUR199.txt |
+| Sweden | Сб–Пн | 2026-11-28 – 2026-11-30 | ? | ? | KLM (via AMS) | ~152 | TIME_UNVERIFIED | 2026-10-29 | WEEKENDS/Sweden/BCN-ARN_KLM_2026-11-28_2026-11-30_EUR152.txt |
+Denmark/Sweden (старе): найдешевше за запит — ARN KLM ~191 (28–30.11, з пересадками); CPH запити зазнали збою; до порогу 120 далеко.

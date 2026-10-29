@@ -1,0 +1,13 @@
+Destination: Menorca (MAH)
+Format: Пт–Нд
+Outbound: 2026-12-11, час НЕ перевірено (скрипт не показує), BCN-MAH
+Return: 2026-12-13, час НЕ перевірено
+Airline(s): VUELING
+Airfare EUR: 48
+Cabin bag EUR: 50 (оцінка CABIN_BAG_ESTIMATE)
+TOTAL EUR: 98
+STATUS: TIME_UNVERIFIED (листа не надсилати)
+Source URL: Google Flights via tools/gflights.py; https://www.google.com/travel/flights?q=Flights%20from%20BCN%20to%20MAH%20on%202026-12-11%20through%202026-12-13
+Found at (UTC): 2026-10-29
+Price history: 2026-10-29 48
+Notes: перевірити час вильоту (до 12:00 туди, від 17:00 назад) на сайті перевізника.

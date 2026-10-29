@@ -1,0 +1,13 @@
+Destination: Sweden (ARN)
+Format: Сб–Пн
+Outbound: 2026-11-28, час НЕ перевірено (скрипт не показує), BCN-ARN
+Return: 2026-11-30, час НЕ перевірено
+Airline(s): KLM
+Airfare EUR: 152
+Cabin bag EUR: 0 (оцінка CABIN_BAG_ESTIMATE)
+TOTAL EUR: 152
+STATUS: TIME_UNVERIFIED (листа не надсилати)
+Source URL: Google Flights via tools/gflights.py; https://www.google.com/travel/flights?q=Flights%20from%20BCN%20to%20ARN%20on%202026-11-28%20through%202026-11-30
+Found at (UTC): 2026-10-29
+Price history: 2026-10-29 152
+Notes: перевірити час вильоту (до 12:00 туди, від 17:00 назад) на сайті перевізника.
