@@ -195,3 +195,12 @@ Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
 ВИХІДНІ: перевірено вихідні 06.11–27.12 (обидва формати) BCN→PMI,MAH,CPH,ARN, 55 ok / 9 fail. Час рейсів скрипт НЕ показує → усі TIME_UNVERIFIED, листів немає. Найнижче: PMI Ryanair 36 (21–23.11, ~86 з cabin bag), MAH Vueling 48 (11–13.12, ~98), CPH Vueling 149 (11–13.12, ~199), ARN KLM 152 (28–30.11). Блок далеких тижнів не перевірявся.
 Веб: error fares немає; aifly: BCN-MRU Saudia via JED від 453 (4–16.11.2026, не вікно; 23 kg багаж включено; пересадки 9–10 год) — у вікнах A/B GF дає 708+; travel-dealz Saudia MAD-MRU 404 (травень 2026, закінчився); chollometro LIS-Кабо-Верде 111 тр (грудень, закінчилось). Віза: Маврикій — безвіз до 90 днів за агрегаторами (офіційне джерело не підтверджено, VISA_CHECK_REQUIRED); Колумбія/Аргентина/Панама — безвіз; Мексика — джерела розходяться.
 Не перевірено: зворотні рейси, cabin bag напряму, час рейсів вихідних.
+
+## 2026-10-30 (запуск 19, агент, GF; 7 країн; п'ятниця)
+Скрипт gflights: 21 команда вікон A/B + 1 команда ВИХІДНИХ; ≈113 FAIL (stderr), решта ok; сирі дані: GF_RUNS/2026-10-30.csv (1704 рядки). WebSearch 3, сторінок 0 (скорочений вебпошук).
+Охоплено: Cape Verde A+B (LIS; open-jaw LIS/BCN→SID,BVC,RAI,VXE; MAD OJ); Маврикій (CDG, ORY); ПАР (BCN, IST); Колумбія/Панама (BCN, MAD); Мексика (BCN, MAD, OJ CUN↔MEX); Аргентина (BCN, MAD, AMS); open-jaw MAD→BOG/CTG,MDE,PTY; via IST →PTY A. Positioning, OFF_WINDOW не запускались.
+Найнижче (A / B): Cape Verde LIS-SID 102 / LIS-BVC 179 (OJ 116 / 190); Маврикій CDG-MRU Kenya 707 / CDG-MRU Emirates 817; ПАР BCN-JNB 520 / BCN-CPT 714; Панама MAD-PTY 640 / 552; Мексика BCN-CUN 750 / MAD-CUN 662; Колумбія MAD-BOG 767 / MAD-CTG 708; Аргентина — >800. Open-jaw (не CV) ≥785.
+Нових ≤ порогу немає (CV — вже в ALERTED). Падіння ≥15%: немає. ALERT.md не змінювався. Тижневий звіт: не понеділок.
+ВИХІДНІ: 16 пар (06.11–28.12) BCN→PMI,MAH: PMI Ryanair 36 (21–23.11, 28–30.11), MAH Vueling 39 (18–20.12). Час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. CPH/Швеція цього разу не запускались.
+Веб: error fares немає (secretflying LatAm open-jaw €152 — старий пост, не підтверджено); ou-et-quand Париж–Маврикій січ. 2027 від 731 (Emirates).
+Не перевірено: зворотні рейси, cabin bag, OFF_WINDOW, CPH/Швеція, далекі тижні.
