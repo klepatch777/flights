@@ -204,3 +204,12 @@ Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
 ВИХІДНІ: 16 пар (06.11–28.12) BCN→PMI,MAH: PMI Ryanair 36 (21–23.11, 28–30.11), MAH Vueling 39 (18–20.12). Час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. CPH/Швеція цього разу не запускались.
 Веб: error fares немає (secretflying LatAm open-jaw €152 — старий пост, не підтверджено); ou-et-quand Париж–Маврикій січ. 2027 від 731 (Emirates).
 Не перевірено: зворотні рейси, cabin bag, OFF_WINDOW, CPH/Швеція, далекі тижні.
+
+## 2026-10-31 (запуск 20, агент, GF; 7 країн; субота)
+Скрипт gflights: 20 команд вікон A/B + 2 команди ВИХІДНИХ; ≈650 ok-рядків запитів / ≈188 FAIL (stderr); сирі дані: GF_RUNS/2026-10-31.csv (≈1450 рядків). WebSearch 6, сторінок 0 (скорочений вебпошук).
+Охоплено: Cape Verde A+B (LIS, OPO, BCN; open-jaw LIS→SID/BVC,RAI,VXE; via LIS); Маврикій (CDG, ORY); ПАР (BCN); Колумбія (MAD); Панама/Аргентина (MAD, BCN); Мексика (BCN, MAD). Positioning, OFF_WINDOW, via IST не запускались (нових знахідок немає).
+Найнижче (A / B): Cape Verde LIS-SID 102 / LIS-BVC 179 (OJ LIS-SID>VXE 110 / 204; OPO-VXE A 110; via LIS BCN→SID 596 / 549); Маврикій CDG-MRU 737 / 817; ПАР BCN-JNB 520 / BCN-CPT 699; Колумбія MAD-BOG 763 / MAD-MDE 701; Панама MAD-PTY 652 / 507; Мексика MAD-MEX 685 / MAD-CUN 688; Аргентина MAD-EZE 923 / 942.
+Нових ≤ порогу немає (CV — вже в ALERTED, різниця <20 EUR). Падіння ≥15%: немає. ALERT.md не змінювався. Тижневий звіт: не понеділок.
+ВИХІДНІ: 8 вихідних (06.11–27.12), обидва формати, BCN→PMI,MAH,CPH,ARN. Найнижче: PMI Ryanair 36 (21–23.11), MAH Vueling 37 (18–20.12), CPH Vueling 146 (11–13.12), ARN KLM 142 (28–30.11). Час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Далекі тижні не перевірялись.
+Веб: error fares немає (secretflying LatAm open-jaw €152 — старий пост, не підтверджено); fly4free BCN-SID €226 (червень–липень 2027, поза вікнами); travel-dealz Air Europa MAD-JNB 486/BCN 511 (без багажу, лише до лют.–бер.) — вище порогу; Париж–Маврикій січ. 2027 від 729–738 (Austrian/Bourse des Vols); Ryanair BCN-PMI від 20,99 (30.11).
+Не перевірено: зворотні рейси, cabin bag напряму, час рейсів вихідних, via IST, OFF_WINDOW.
