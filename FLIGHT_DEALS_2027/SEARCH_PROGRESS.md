@@ -222,3 +222,12 @@ Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
 ВИХІДНІ: перевірено 8 вихідних 06.11–28.11 + 8 вихідних 04.12–28.12 (BCN→PMI,MAH,CPH,ARN, обидва формати) і далекий блок 01.01–25.01.2027 (PMI,MAH). Найнижче: PMI Vueling 32 (16–18.01.2027), Ryanair 36 (28–30.11); MAH Vueling 39 (15–17.01.2027), 40 (18–20.12); CPH Vueling 151 (11–13.12); ARN KLM 142 (28–30.11). Час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 29.01.2027.
 Веб: error fares немає; fly4free BCN-SID €226 (VY, червень–липень 2027, поза вікнами); Париж–Маврикій січ. 2027: Air Mauritius/Air France від 942–944, comparateurs від ~731; KLM Spain–JNB/CPT від 607–665, Air Europa MAD-JNB від 486 (без багажу); secretflying/chollometro — нічого актуального для 7 країн.
 Не перевірено: зворотні рейси, cabin bag напряму, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-02 (запуск 22, агент, GF; 7 країн; понеділок)
+Скрипт gflights: 30 команд вікон A/B (≈2800 ok-рядків / ≈174 FAIL) + 10 команд ВИХІДНИХ (258 рядків / 14 fail); сирі дані: GF_RUNS/2026-11-02.csv (3057 рядків). WebSearch 3, сторінок 0 (скорочений вебпошук).
+Охоплено: Cape Verde (LIS, BCN, OPO; open-jaw LIS/BCN; via LIS); Маврикій (CDG, ORY, BCN, MAD); ПАР (BCN, MAD, IST; OJ CPT↔JNB; via IST); Колумбія/Панама/Мексика/Аргентина (BCN, MAD, FRA; OJ; via IST). Positioning, OFF_WINDOW не запускались.
+Найнижче (A / B): Cape Verde LIS-SID 95 / OPO-BVC 177 (OJ LIS-SID>VXE 103 / 194); Маврикій CDG-MRU Kenya 667 / Emirates 774; ПАР BCN-JNB 520 / BCN-JNB Qatar 621; Колумбія MAD-BOG 728 / MAD-CTG 716; Панама MAD-PTY 652 / 507; Мексика MAD-MEX 681 / MAD-CUN 685; Аргентина MAD-EZE 861 / 882. Open-jaw (не CV) ≥793.
+Нових ≤ порогу немає (CV — вже в ALERTED, різниця <20). Падіння ≥15%: немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: WEEKLY.md оновлено (понеділок).
+ВИХІДНІ: перевірено 07.11–31.12 (8 тижнів) та 29.01–20.02.2027 (блок 4 тижні), BCN→PMI,MAH,CPH,ARN, обидва формати. Найнижче: PMI Ryanair 36 (28–30.11), Vueling 37 (18–20.12); MAH Vueling 40 (18–20.12); CPH 156 (11–13.12); ARN KLM 152 (28–30.11). З cabin bag PMI/MAH ≈86–90 > 80; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 27.02.2027.
+Веб: error fares немає; chollometro: Кабо-Верде 87–95 EUR з LIS/OPO (зима, без cabin bag, відомі); Aerolíneas Argentinas BUE-CTG з 01.01.2027 (не акція). Vueling BCN-CPH від 31 (дати не підтверджені).
+Не перевірено: зворотні рейси, cabin bag напряму, час рейсів вихідних, OFF_WINDOW, positioning.
