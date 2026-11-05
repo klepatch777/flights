@@ -248,3 +248,12 @@ Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
 Нових ≤ порогу немає (CV — вже в ALERTED). Падіння ≥15%: немає. ALERT.md не змінювався. Тижневий звіт: не понеділок.
 ВИХІДНІ: PMI Vueling 33 (18–20.12, ~83 з cabin bag); час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає.
 Не перевірено: зворотні рейси, cabin bag, час рейсів, вебпошук.
+
+## 2026-11-05 (запуск 25, агент, GF; 7 країн; четвер; скорочений запуск)
+Скрипт gflights: 16 команд вікон A/B (≈400 запитів ok / 0 fail) + 2 команди ВИХІДНИХ (11 вихідних, обидва формати); сирі дані: GF_RUNS/2026-11-05.csv (256 рядків, виведення скрипта — топ на запит). WebSearch 5, сторінок 0.
+Охоплено: Cape Verde A+B (LIS, OPO → SID,BVC,RAI,VXE; open-jaw LIS→SID>BVC,VXE); Маврикій (CDG, ORY); ПАР (BCN, MAD); Колумбія/Панама (MAD, BCN → BOG,CTG,PTY); Мексика/Аргентина (MAD, BCN). Via IST, positioning, OFF_WINDOW не запускались.
+Найнижче (A / B): Cape Verde LIS-SID easyJet 167 / OPO-RAI TAP 298 (ціни вищі за вчорашні; OJ LIS-SID>BVC B 666); Маврикій CDG-MRU B 958 (A — порожньо у топі); ПАР MAD-JNB 654 / 615 (BCN-JNB B 620); Колумбія MAD-BOG A 767; Панама MAD-PTY B 576; Мексика/Аргентина — вище 650/970.
+Нових ≤ порогу немає. Падіння ≥15% (price_trends): немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не понеділок.
+ВИХІДНІ: вихідні 13.11–03.01.2027 та блок 26.03–18.04.2027, BCN→PMI,MAH,CPH,ARN. Найнижче: PMI Vueling 38 (10–12.04.2027), 39 (19–21.12, 01–03.01); MAH Vueling 40 (18–20.12); CPH Air Serbia 144 (26–28.03.2027), Vueling 158 (11–13.12); ARN KLM 144 (28–30.11). З cabin bag PMI/MAH >80; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 23.04.2027.
+Веб: secretflying LatAm open-jaw €152 (лют.–трав. 2027, Air Nostrum/MAD) — старий допис, не підтверджений; Париж–Маврикій: Air Mauritius/Air France від 933–944, Saudia через bourse-des-vols від ~530–557 (лише на лютий–березень, не вікно); Колумбія MAD: AF 786, KLM 728; Vueling/Ryanair PMI від ~15 (Ryanair, без cabin bag), Menorca/Copenhagen акцій не знайдено.
+Не перевірено: зворотні рейси, cabin bag, час рейсів вихідних, via IST, OFF_WINDOW, positioning.

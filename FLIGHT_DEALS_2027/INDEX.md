@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-11-04 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
+Останній запуск: 2026-11-05 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
 
 Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File
 
