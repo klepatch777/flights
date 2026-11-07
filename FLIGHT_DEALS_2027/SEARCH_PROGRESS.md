@@ -266,3 +266,11 @@ Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
 ВИХІДНІ: 16 вихідних 13.11–04.01 (BCN→PMI,MAH,CPH,ARN) + блок 23.04–17.05.2027 (PMI,MAH,CPH,ARN). Найнижче: PMI Ryanair 36 (11–13.12, 12–14.12, 18–20.12), MAH Vueling 40 (18–20.12), CPH KLM 166, ARN KLM 153. З cabin bag PMI/MAH ≈80+; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 21.05.2027.
 Веб: error fares немає (secretflying — старі пости); TAP ES→Кабо-Верде від 379–458 (звичайні тарифи); Париж–Маврикій січ. 2027 від 731 (Emirates, ou-et-quand); Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
 Не перевірено: зворотні рейси, cabin bag напряму, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-07 (запуск 27, агент, GF; 7 країн; субота; скорочений запуск)
+Скрипт gflights: вікна A/B — LIS→CV, CDG/ORY→MRU, BCN/MAD→ПАР, BCN/MAD→BOG/CTG/PTY, CUN/MEX, EZE, open-jaw MAD CPT↔JNB; ВИХІДНІ — 16 пар (13.11–04.01) BCN→PMI,MAH,CPH,ARN. Сирі дані: GF_RUNS/2026-11-07.csv. FAIL ≈ 53 (stderr). WebSearch 3, сторінок 0.
+Найнижче (A / B): Cape Verde LIS-RAI 102 / LIS-BVC 179; Маврикій CDG-MRU Kenya 701 / 701; ПАР BCN-JNB Air Europa 578 / MAD-JNB Turkish 599 (OJ CPT↔JNB 971); Колумбія MAD-CTG 788 / 716; Панама MAD-PTY 665 / 508; Мексика MAD-MEX 645 / MAD-CUN 705; Аргентина MAD-EZE 861 / 772.
+Нових ≤ порогу немає (CV вже в ALERTED). Падіння ≥15%: див. вивід price_trends (нових сигналів не внесено). ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не понеділок.
+ВИХІДНІ: PMI Vueling 33 (25–27.12), Ryanair 36 (11–13.12); MAH Vueling 44 (18–20.12); CPH KLM 166; ARN KLM 153. Час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Далекий блок не перевірявся (наступний: з 21.05.2027).
+Веб: error fares немає; Париж–Маврикій січ. 2027 від 731 (Emirates); TAP Мадрид–Кабо-Верде від 463; Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
+Не перевірено: via IST, positioning, OFF_WINDOW, зворотні рейси, cabin bag, час рейсів вихідних.
