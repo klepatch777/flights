@@ -274,3 +274,12 @@ Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
 ВИХІДНІ: PMI Vueling 33 (25–27.12), Ryanair 36 (11–13.12); MAH Vueling 44 (18–20.12); CPH KLM 166; ARN KLM 153. Час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Далекий блок не перевірявся (наступний: з 21.05.2027).
 Веб: error fares немає; Париж–Маврикій січ. 2027 від 731 (Emirates); TAP Мадрид–Кабо-Верде від 463; Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
 Не перевірено: via IST, positioning, OFF_WINDOW, зворотні рейси, cabin bag, час рейсів вихідних.
+
+## 2026-11-08 (запуск 28, агент, GF; 7 країн; неділя; скорочений запуск)
+Скрипт gflights: ≈20 команд (вікна A/B + ВИХІДНІ), ≈1100 рядків у GF_RUNS/2026-11-08.csv; кілька команд спершу впали через помилку шляху (запущено з іншої директорії) — перезапущено, потім OK. WebSearch 2, сторінок 0 (скорочений вебпошук).
+Охоплено: Cape Verde A+B (LIS→SID,BVC,RAI,VXE), Маврикій (CDG, ORY, A+B), ПАР (BCN, MAD, A+B), Колумбія/Панама (BCN, MAD, A+B), Мексика (A+B), Аргентина (A+B), open-jaw MAD→BOG>CTG,MDE,PTY (A), via IST →PTY (A, 0 результатів). Positioning, OFF_WINDOW не запускались.
+Найнижче (A / B): Cape Verde LIS-RAI 102 / LIS-BVC 173; Маврикій CDG-MRU Kenya 701 / 701; ПАР BCN-JNB Air Europa 578 / BCN-JNB Turkish 619; Колумбія MAD-BOG 767 / MAD-CTG 715; Панама MAD-PTY 671 / 507; Мексика BCN-MEX 773 / MAD-CUN 758; Аргентина — >800. Open-jaw ≥ 1000.
+Нових ≤ порогу немає (CV — вже в ALERTED, цінові рівні як раніше). Падіння ≥15%: немає. ALERT.md не змінювався. Тижневий звіт: не понеділок.
+ВИХІДНІ: 14 пар (13.11–28.12) BCN→PMI,MAH; 10 пар BCN→CPH,ARN (20.11–21.12). Найнижче: PMI Vueling 33 (18–20.12), MAH Vueling 43 (11–13.12), ARN KLM 153, CPH Air France 166. З cabin bag PMI/MAH >80, CPH/ARN далеко від 120; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає.
+Веб: error fares немає; Париж–Маврикій січ. 2027 від ~940 (AF/MK), Saudia з пересадкою ~527–557 (не підтверджено).
+Не перевірено: зворотні рейси, cabin bag, час рейсів вихідних, OFF_WINDOW, positioning.
