@@ -283,3 +283,12 @@ Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
 ВИХІДНІ: 14 пар (13.11–28.12) BCN→PMI,MAH; 10 пар BCN→CPH,ARN (20.11–21.12). Найнижче: PMI Vueling 33 (18–20.12), MAH Vueling 43 (11–13.12), ARN KLM 153, CPH Air France 166. З cabin bag PMI/MAH >80, CPH/ARN далеко від 120; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає.
 Веб: error fares немає; Париж–Маврикій січ. 2027 від ~940 (AF/MK), Saudia з пересадкою ~527–557 (не підтверджено).
 Не перевірено: зворотні рейси, cabin bag, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-09 (запуск 29, агент, GF; 7 країн; понеділок)
+Скрипт gflights: вікна A/B — CV (LIS,OPO→SID,BVC,RAI,VXE), MRU (CDG,ORY), ПАР, Мексика, Колумбія/Панама, Аргентина (BCN,MAD); open-jaw CV (LIS) та LatAm (MAD→BOG>CTG,MDE,PTY); via IST →PTY,BOG (A,B); via LIS →SID (A,B); positioning BCN→OPO (OPO-RAI B). Сирі дані: GF_RUNS/2026-11-09.csv (2074 рядки). Частина FAIL у stderr (CV A ≈25, IST ≈3). WebSearch 10, сторінок 0.
+Найнижче (A / B): Cape Verde OPO-VXE 108 / OPO-RAI 162 (OJ LIS-SID>BVC 126 / 202; BCN via LIS 673 / >2500); Маврикій CDG-MRU Kenya 701 / 701; ПАР BCN-JNB Air Europa 578 / BCN-JNB Turkish 619; Колумбія >760 / MAD-CTG ~709; Панама MAD-PTY 671 / 507; Мексика BCN-CUN 745 / MAD-MEX 770; Аргентина MAD-EZE 861 / 772. Open-jaw LatAm ≥1093; via IST ≥1522.
+Нових ≤ порогу немає: OPO-RAI B 162 (+80 cabin bag + positioning BCN-OPO ~83–110 в один бік, ≈400+) — на межі, не алертовано; інші CV — вже відомі. Падіння ≥15%: немає. ALERT.md не змінювався, лист за вікна/вихідні не надсилався. Тижневий звіт: WEEKLY.md оновлено (понеділок).
+ВИХІДНІ: 8 найближчих тижнів (14.11–08.01, Пт–Нд і Сб–Пн; BCN→PMI,MAH,CPH,ARN) + далекий блок 15.01–08.02.2027. Найнижче: PMI Ryanair 36 (04–06.12 та ін.), MAH Vueling 41 (18–20.12), CPH Vueling 145 (11–13.12), ARN KLM 153 (27–29.11). З cabin bag PMI/MAH >80; CPH/ARN >120; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: 12.02–06.03.2027 (потім з 21.05.2027).
+Веб: error fares немає (secretflying LatAm €152 — старий допис); Париж–Маврикій: Air Mauritius BER 848 (січ.), середній ~950, промо не знайдено; Vueling/Ryanair/Norwegian/SAS акцій на PMI/MAH/CPH/ARN не знайдено. Віза: Кабо-Верде — EASE за 5 днів, джерела розходяться (VISA_CHECK_REQUIRED); Маврикій — безвіз до 90 днів за двосторонньою угодою 2024 (офіційно не підтверджено, VISA_CHECK_REQUIRED).
+price_trends.py: підтримує Маврикій (MU), напрямки вихідних не відстежує.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning (крім OPO).
