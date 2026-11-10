@@ -30,3 +30,6 @@
 - 2026-10-24 | Cape Verde | OPO-VXE | 2027-01-27–2027-02-06 | easyJet | 120 EUR (total ~324, positioning BCN-OPO ~124) | GF
 - 2026-10-27 | Cape Verde | LIS-VXE | 2027-04-12–2027-04-26 | easyJet | 169 EUR (total ~342, positioning BCN-LIS 93; було 214) | GF
 - 2026-10-27 | Cape Verde | OPO-SID | 2027-04-12–2027-04-22 | easyJet | 155 EUR (total ~356, positioning BCN-OPO 121; було 197) | GF
+- 2026-11-10 | Cape Verde | LIS-BVC | 2027-01-23–2027-02-04 | easyJet | 87 EUR (total ~254, ≤300, positioning BCN-LIS ~87) | GF
+- 2026-11-10 | Cape Verde | OPO-VXE | 2027-01-27–2027-02-06 | easyJet | 81 EUR (total ~310; було 120/324) | GF
+- 2026-11-10 | падіння | Cape Verde A 102→81 (−21%) OPO-VXE | GF

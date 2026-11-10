@@ -292,3 +292,11 @@ Positioning: BCN↔LIS 93, BCN↔OPO 121 (12–25.04.2027).
 Веб: error fares немає (secretflying LatAm €152 — старий допис); Париж–Маврикій: Air Mauritius BER 848 (січ.), середній ~950, промо не знайдено; Vueling/Ryanair/Norwegian/SAS акцій на PMI/MAH/CPH/ARN не знайдено. Віза: Кабо-Верде — EASE за 5 днів, джерела розходяться (VISA_CHECK_REQUIRED); Маврикій — безвіз до 90 днів за двосторонньою угодою 2024 (офіційно не підтверджено, VISA_CHECK_REQUIRED).
 price_trends.py: підтримує Маврикій (MU), напрямки вихідних не відстежує.
 Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning (крім OPO).
+
+## 2026-11-10 (запуск 30, агент, GF; 7 країн; вівторок)
+Скрипт gflights: вікна A/B — CV (LIS,OPO→SID,BVC,RAI,VXE; open-jaw LIS,BCN; via LIS), Маврикій (CDG,ORY), ПАР (BCN,MAD), Колумбія/Панама, Мексика, Аргентина (BCN,MAD), open-jaw MAD→BOG>CTG,MDE,PTY та MEX>CUN, via IST →PTY (≈680 запитів ok / ≈133 fail PARSE, переважно LIS-BVC); positioning BCN↔OPO, BCN→LIS (oneway). ВИХІДНІ: 8 вихідних 13.11–03.01 (PMI,MAH,CPH,ARN) + блок 12.02–06.03.2027, обидва формати. Сирі дані: GF_RUNS/2026-11-10.csv (2241 рядок). WebSearch 7, сторінок 0.
+Найнижче (A / B): Cape Verde OPO-VXE 81 / OPO-RAI 162 (LIS-BVC A 87, LIS-SID 88; OJ LIS-SID>VXE 121 / 202); Маврикій CDG-MRU Kenya 702 / Turkish 764; ПАР BCN-JNB 579 / MAD-JNB 600; Колумбія >797 / MAD-CTG 715; Панама MAD-PTY 671 / 507; Мексика MAD-MEX 630 / MAD-CUN 659; Аргентина MAD-EZE 861 / 772. Open-jaw LatAm ≥868; via IST не дало дешевих.
+НОВЕ: Cape Verde A LIS-BVC 87 (23.01–04.02) total ~254; OPO-VXE 81 total ~310 (було 324); падіння −21% (price_trends). ALERT.md переписано, ALERTED.md оновлено → лист. Тижневий звіт: не понеділок.
+ВИХІДНІ: найнижче PMI Ryanair 36 (04–06.12, 11–13.12), MAH Vueling 39 (18–20.12), CPH Vueling 147 (05–07.03.2027), ARN KLM 153 (28–30.11). З cabin bag PMI/MAH ≈80+; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 12.03.2027.
+Веб: error fares немає (secretflying LatAm €152 — старий); secretflying Porto/Lisbon–CV від 79 (нояб.–груд., без cabin bag); Париж–Маврикій ~950 середнє; travel-dealz Saudia BCN/MAD–MRU від 526 (з багажем, дати не підтверджені); Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning для Маврикію.

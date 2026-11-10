@@ -10,13 +10,13 @@ Outbound route: OPO-VXE (easyJet, прямий, 47 EUR у режимі one-way)
 Inbound route: VXE-OPO (easyJet, 73 EUR, перевірено через --oneway)
 Stopover: немає
 Airline(s): easyJet
-Ticket structure: два квитки в один бік easyJet (47+73) = 120; окремо positioning BCN↔OPO
+Ticket structure: два квитки в один бік easyJet (≈47+≈34, сума за GF) = 81; окремо positioning BCN↔OPO
 Cabin baggage included: easyJet: лише малий bag; великий cabin bag ~ +80 за обидва напрямки (джерела суперечать)
-Airfare incl. cabin bag EUR: 120 + ~80 = ~200
-Positioning from Barcelona: ~124 (Vueling BCN-OPO-BCN 24.01–07.02; рейс на день раніше/пізніше — поправити ночівлею в OPO)
-TOTAL_FROM_BCN: ~324
+Airfare incl. cabin bag EUR: 81 + ~80 = ~161
+Positioning from Barcelona: ~149 (BCN→OPO 26.01 Air Europa via MAD 63 + OPO→BCN 07.02 Iberia 86; окремі квитки, ночівля в OPO не враховано)
+TOTAL_FROM_BCN: ~310
 Transit/visa risk: Україна — Кабо-Верде: EASE за 5 днів + віза при прибутті (~44 EUR) за частиною джерел; VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає.
 Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20OPO%20to%20VXE%20on%202027-01-27%20through%202027-02-06
 Found at (UTC): 2026-10-24
-Price history: 2026-10-24 120
+Price history: 2026-10-24 120; 2026-11-10 81 (−33%)
 Notes: Positioning BCN-OPO на 26.01/06.02 виходить 140+ (через LIS) — реально краще лови Ryanair/Vueling 24.01 і 07.02 (+ночівля в OPO не враховано).

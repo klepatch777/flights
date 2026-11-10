@@ -1,0 +1,22 @@
+STATUS: INDICATIVE_GF (реальна ціна Google Flights, не перевірена бронюванням)
+Country: Cape Verde
+Destination city: Боа-Вішта (BVC)
+Return city: Боа-Вішта (BVC)
+Outbound: 2027-01-23
+Return: 2027-02-04
+Trip length: 12 днів
+Date window: A 29.01
+Outbound route: LIS-BVC (easyJet, прямий)
+Inbound route: BVC-LIS (easyJet; зворотний рейс окремо не перевірено)
+Stopover: немає
+Airline(s): easyJet
+Ticket structure: туди-назад easyJet 87 EUR; окремо positioning BCN-LIS і назад (Vueling)
+Cabin baggage included: easyJet: лише малий bag; великий cabin bag ~ +80 за обидва напрямки (оцінка)
+Airfare incl. cabin bag EUR: 87 + ~80 = ~167
+Positioning from Barcelona: ~87 (Vueling BCN-LIS 23.01 за 43 + LIS-BCN 04.02 за 44; час рейсів не перевірено — можливо потрібна ніч у LIS)
+TOTAL_FROM_BCN: ~254
+Transit/visa risk: Україна — Кабо-Верде: EASE; VISA_CHECK_REQUIRED. Пересадок у США/Британії/Канаді немає.
+Source URL: Google Flights via tools/gflights.py — https://www.google.com/travel/flights?q=Flights%20from%20LIS%20to%20BVC%20on%202027-01-23%20through%202027-02-04
+Found at (UTC): 2026-11-10
+Price history: 2026-11-10 87
+Notes: Нова дата-комбінація; найдешевший варіант запуску (LIS-SID 19.01–02.02 88, OPO-BVC 19.01–31.01 88, LIS-VXE 19.01–02.02 90 — аналогічно).

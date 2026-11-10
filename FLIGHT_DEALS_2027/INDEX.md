@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-11-09 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
+Останній запуск: 2026-11-10 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
 
 Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File
 
@@ -10,6 +10,8 @@ Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN
 | A | Cape Verde | LIS-BVC (easyJet) | 2027-01-19 – 2027-02-02 | 14 | easyJet | 102 (+~80 cabin bag) | ~286 | INDICATIVE_GF VISA_CHECK | 2026-10-18 | INDICATIVE/Cape_Verde/LIS-BVC_EASYJET_2027-01-19_2027-02-02_EUR102.txt |
 | A | Cape Verde | LIS-VXE (easyJet) | 2027-01-21 – 2027-02-04 | 14 | easyJet | 102 (+~80 cabin bag) | ~292 (positioning оцінка) | INDICATIVE_GF VISA_CHECK | 2026-10-18 | INDICATIVE/Cape_Verde/LIS-VXE_EASYJET_2027-01-21_2027-02-04_EUR102.txt |
 | A | Cape Verde | LIS-RAI (easyJet) | 2027-01-21 – 2027-02-04 | 14 | easyJet | 104 (+~80 cabin bag) | ~288 | INDICATIVE_GF VISA_CHECK | 2026-10-19 | INDICATIVE/Cape_Verde/LIS-RAI_EASYJET_2027-01-21_2027-02-04_EUR104.txt |
+
+| A | Cape Verde | LIS-BVC (easyJet), positioning BCN-LIS ~87 | 2027-01-23 – 2027-02-04 | 12 | easyJet | 87 (+~80 cabin bag) | ~254 | INDICATIVE_GF VISA_CHECK | 2026-11-10 | INDICATIVE/Cape_Verde/LIS-BVC_EASYJET_2027-01-23_2027-02-04_EUR87.txt |
 
 ## DEALS 301–400
 | B | Cape Verde | LIS-BVC (easyJet) | 2027-04-06 – 2027-04-20 | 14 | easyJet | 179 (+~80 cabin bag) | ~336 | INDICATIVE_GF VISA_CHECK | 2026-10-18 | INDICATIVE/Cape_Verde/LIS-BVC_EASYJET_2027-04-06_2027-04-20_EUR179.txt |
@@ -29,9 +31,11 @@ Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN
 | A | Cape Verde | MAD-SID (TAP via LIS), positioning BCN-MAD 99 | 2027-01-23 – 2027-02-02 | 10 | TAP | 289 (+0–80 cabin bag) | ~388–468 | INDICATIVE_GF VISA_CHECK | 2026-10-22 | INDICATIVE/Cape_Verde/MAD-SID_TP_2027-01-23_2027-02-02_EUR289.txt |
 | B | Cape Verde | OPO-SID (easyJet), positioning BCN-OPO 117 | 2027-04-08 – 2027-04-22 | 14 | easyJet | 197 (+~80 cabin bag) | ~394 | INDICATIVE_GF VISA_CHECK | 2026-10-22 | INDICATIVE/Cape_Verde/OPO-SID_EASYJET_2027-04-08_2027-04-22_EUR197.txt |
 | B | Cape Verde | OPO-VXE (easyJet), positioning BCN-OPO ~117 | 2027-04-12 – 2027-04-26 | 14 | easyJet | 195 (+~80 cabin bag) | ~392 | INDICATIVE_GF VISA_CHECK | 2026-10-23 | INDICATIVE/Cape_Verde/OPO-VXE_EASYJET_2027-04-12_2027-04-26_EUR195.txt |
-| A | Cape Verde | OPO-VXE (easyJet), positioning BCN-OPO ~124 | 2027-01-27 – 2027-02-06 | 10 | easyJet | 120 (+~80 cabin bag) | ~324 | INDICATIVE_GF VISA_CHECK | 2026-10-24 | INDICATIVE/Cape_Verde/OPO-VXE_EASYJET_2027-01-27_2027-02-06_EUR120.txt |
+| A | Cape Verde | OPO-VXE (easyJet), positioning BCN-OPO ~149 | 2027-01-27 – 2027-02-06 | 10 | easyJet | 81 (+~80 cabin bag) | ~310 | INDICATIVE_GF VISA_CHECK | 2026-10-24 | INDICATIVE/Cape_Verde/OPO-VXE_EASYJET_2027-01-27_2027-02-06_EUR81.txt |
 | B | Cape Verde | LIS-VXE (easyJet), positioning BCN-LIS 93 | 2027-04-12 – 2027-04-26 | 14 | easyJet | 169 (+80 cabin bag) | ~342 | INDICATIVE_GF VISA_CHECK | 2026-10-27 | INDICATIVE/Cape_Verde/LIS-VXE_EASYJET_2027-04-12_2027-04-26_EUR169.txt |
 | B | Cape Verde | OPO-SID (easyJet), positioning BCN-OPO 121 | 2027-04-12 – 2027-04-22 | 10 | easyJet | 155 (+80 cabin bag) | ~356 | INDICATIVE_GF VISA_CHECK | 2026-10-27 | INDICATIVE/Cape_Verde/OPO-SID_EASYJET_2027-04-12_2027-04-22_EUR155.txt |
+
+2026-11-10 (>порогу): ПАР A BCN-JNB 579, B MAD-JNB 600; Маврикій A CDG 702 Kenya, B CDG 764; Колумбія A ≥797, B MAD-CTG 715; Панама B MAD-PTY 507, A 671; Мексика A MAD-MEX 630, B MAD-CUN 659; Аргентина A 861, B 772. Open-jaw (не CV) ≥868.
 
 ## OVER BUDGET
 | A | Cape Verde | LIS-SID (TAP) | 2027-01-27 – 2027-02-05 | 9 | TAP | 219 | ~370+ | INDICATIVE | 2026-10-17 | INDICATIVE/Cape_Verde/LIS-SID_TP_2027-01-27_2027-02-05_EUR219.txt |
