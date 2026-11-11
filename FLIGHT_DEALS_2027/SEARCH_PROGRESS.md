@@ -300,3 +300,12 @@ price_trends.py: підтримує Маврикій (MU), напрямки ви
 ВИХІДНІ: найнижче PMI Ryanair 36 (04–06.12, 11–13.12), MAH Vueling 39 (18–20.12), CPH Vueling 147 (05–07.03.2027), ARN KLM 153 (28–30.11). З cabin bag PMI/MAH ≈80+; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 12.03.2027.
 Веб: error fares немає (secretflying LatAm €152 — старий); secretflying Porto/Lisbon–CV від 79 (нояб.–груд., без cabin bag); Париж–Маврикій ~950 середнє; travel-dealz Saudia BCN/MAD–MRU від 526 (з багажем, дати не підтверджені); Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
 Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning для Маврикію.
+
+## 2026-11-11 (запуск 31, агент, GF; 7 країн; середа)
+Скрипт gflights: 23 команди (вікна A/B: CV LIS + open-jaw + via LIS; MRU CDG/ORY; ПАР, LatAm BCN/MAD; open-jaw MAD→BOG>CTG,MDE,PTY; via IST →PTY B (0 результатів); MAD→PTY step 1 A+B; ВИХІДНІ 3 команди). ≈2290 рядків у GF_RUNS/2026-11-11.csv; FAIL ≈ 60 (переважно CV/MRU B, PTY B, via IST). WebSearch 6, сторінок 1 (fly4free). Positioning, OFF_WINDOW не запускались.
+Найнижче (A / B): Cape Verde LIS-BVC 116 / 173 (OJ LIS-SID>VXE 127 / 202; ціни вищі за вчорашні 87/81, відомі в ALERTED); Маврикій CDG-MRU Kenya 701 / Turkish 764; ПАР BCN-JNB Air Europa 578 / MAD-JNB Etihad 586; Колумбія MAD-BOG 797 / MAD-BOG KLM 728 (CTG 717); Панама MAD-PTY 672 / 596 (Avianca); Мексика MAD-MEX 629 / BCN-MEX 696; Аргентина >770 (EZE). Open-jaw LatAm >800; via IST — 0.
+Нових ≤ порогу немає. Падіння ≥15%: немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не понеділок.
+Веб: fly4free (10.11.2026): Avianca MAD–PTY від 425 EUR (січ.–квіт. 2027, cabin bag включено) — у вікнах A/B за GF найнижче 596 (B) / 672 (A), тому 425 ймовірно на датах поза вікнами (кандидат на OFF_WINDOW <300? ні, >300); travel-dealz Iberia Panama від 538 (багаж +120); error fares для 7 країн немає; Париж–Маврикій січ. 2027 від 942 (Air Mauritius/AF); Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
+ВИХІДНІ: 8 вихідних 20.11–10.01 (PMI,MAH,CPH,ARN, обидва формати) + далекий блок 12.03–05.04.2027. Найнижче: PMI Ryanair 36 (18–20.12), MAH Vueling 47 (18–20.12), CPH KLM 166 / Air Serbia 146 (26–28.03.2027), ARN KLM 162 / 178. З cabin bag PMI/MAH >80; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 09.04.2027.
+Примітка: скрипт-запуск вихідних записав вихідні файли у корінь (виправлено), на результати не вплинуло.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
