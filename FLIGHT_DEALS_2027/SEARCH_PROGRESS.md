@@ -309,3 +309,12 @@ price_trends.py: підтримує Маврикій (MU), напрямки ви
 ВИХІДНІ: 8 вихідних 20.11–10.01 (PMI,MAH,CPH,ARN, обидва формати) + далекий блок 12.03–05.04.2027. Найнижче: PMI Ryanair 36 (18–20.12), MAH Vueling 47 (18–20.12), CPH KLM 166 / Air Serbia 146 (26–28.03.2027), ARN KLM 162 / 178. З cabin bag PMI/MAH >80; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 09.04.2027.
 Примітка: скрипт-запуск вихідних записав вихідні файли у корінь (виправлено), на результати не вплинуло.
 Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-12 (запуск 32, агент, GF; 7 країн; четвер)
+Скрипт gflights: 18 команд (вікна A/B: CV LIS + OPO/BCN→RAI,VXE B; MRU CDG/ORY; ПАР, Колумбія/Панама, Мексика, Аргентина BCN/MAD; open-jaw LIS→SID>BVC,VXE,RAI та BCN→SID>…, MAD→BOG>CTG,MDE,PTY B, MAD→CUN>MEX A; via LIS →SID A; via IST →JNB B; ВИХІДНІ 5 команд). ≈1930 рядків у GF_RUNS/2026-11-12.csv; FAIL ≈ 40 (переважно LIS/CV B, PTY B). WebSearch 10, сторінок 0. Positioning, OFF_WINDOW не запускались.
+Найнижче (A / B): Cape Verde LIS-SID 114 / LIS-BVC 173 (OJ LIS-SID>VXE 137 / —; OPO-VXE B 194); Маврикій CDG-MRU Kenya 701 / Turkish 764; ПАР MAD-JNB Ethiopian 577 / Etihad 586; Колумбія BCN-BOG 797 / MAD-BOG KLM 728; Панама MAD-PTY 715 / BCN-PTY 697; Мексика MAD-MEX 629 / BCN-MEX 696; Аргентина MAD-EZE 926 / 772. Open-jaw LatAm ≥881 (MAD CUN>MEX), ≥1029 (BOG>MDE); via LIS BCN→SID A 684; via IST BCN→JNB B ≥1004.
+Нових ≤ порогу немає (CV — рівні, відомі в ALERTED). Падіння ≥15%: немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не понеділок.
+ВИХІДНІ: 8 вихідних 20.11–11.01 (PMI,MAH,CPH,ARN, обидва формати) + далекий блок 09.04–03.05.2027. Найнижче: PMI Ryanair 36 (11–13.12, 12–14.12), MAH Ryanair 64 (23–25.04.2027), CPH KLM 166, ARN Air Serbia 155 (09–11.04.2027). З cabin bag PMI/MAH >80; CPH/ARN >120; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний далекий блок: з 07.05.2027.
+Веб: error fares немає (secretflying LatAm €152 — старий); TAP Лісабон–CV від 280; Air France Paris–MRU «від 564» (07.01–10.02, не підтверджено); Vueling BCN–PMI/MAH від 18–20 (в один бік), BCN–CPH 31, Norwegian BCN–ARN від ~49 в один бік; акцій на Стокгольм не знайдено.
+price_trends.py: Маврикій підтримує, вихідні не відстежує.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
