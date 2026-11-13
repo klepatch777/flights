@@ -318,3 +318,11 @@ price_trends.py: підтримує Маврикій (MU), напрямки ви
 Веб: error fares немає (secretflying LatAm €152 — старий); TAP Лісабон–CV від 280; Air France Paris–MRU «від 564» (07.01–10.02, не підтверджено); Vueling BCN–PMI/MAH від 18–20 (в один бік), BCN–CPH 31, Norwegian BCN–ARN від ~49 в один бік; акцій на Стокгольм не знайдено.
 price_trends.py: Маврикій підтримує, вихідні не відстежує.
 Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-13 (запуск 33, агент, GF; 7 країн; п'ятниця; скорочений запуск)
+Скрипт gflights: 12 команд вікон A/B + 2 команди ВИХІДНИХ (≈780 рядків у GF_RUNS/2026-11-13.csv); FAIL ≈ 25 (CV B, MRU B). Серія (2 потоки) обірвана за ліміт часу — не виконано: AMS→LatAm B (частково), BCN/MAD→EZE, MAD→PTY/BOG B, open-jaw, via IST/LIS, positioning, OFF_WINDOW. WebSearch 10, сторінок 0.
+Найнижче (A / B): Cape Verde LIS-SID 114 / LIS-SID 193 (VXE 193); Маврикій CDG-MRU Kenya 724 / Turkish 764; ПАР MAD-JNB Ethiopian 578 / Etihad 588; Колумбія/Панама A AMS-BOG 886, AMS-PTY 848 (MAD/BCN не запускались); Мексика MAD-MEX 597 / BCN-CUN 748; Аргентина — не перевірено сьогодні.
+Нових ≤ порогу немає. Падіння ≥15%: немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не понеділок.
+ВИХІДНІ: 8 вихідних 20.11–10.01 (обидва формати) BCN→PMI,MAH,CPH,ARN. Найнижче: PMI Ryanair 36 (11–13.12), MAH Vueling 47 (18–20.12), CPH Vueling 151 (11–13.12), ARN Lufthansa 205. Час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Далекий блок не перевірявся (наступний: з 07.05.2027).
+Веб: error fares немає (secretflying LatAm €152 — старий); Air France/Air Mauritius Paris–MRU від 944–956, Partirou 731 (кві. 2027); fly4free Avianca MAD–PTY від 424 (поза вікнами); chollometro CV 76–95 (LIS/OPO–SID, січ.–бер., без cabin bag); SAS додає Менорку на літо 2027; акцій Vueling/Ryanair/Norwegian на PMI/MAH/CPH/ARN не знайдено.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
