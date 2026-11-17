@@ -342,3 +342,11 @@ price_trends.py: Маврикій підтримує, вихідні не від
 ВИХІДНІ: 12 вихідних 21.11–14.02.2027 (8 найближчих + блок 15.01–14.02.2027) BCN→PMI,MAH,CPH,ARN, обидва формати. Найнижче: PMI Vueling 35 (09–11.01), MAH Vueling 45 (30.01–01.02), CPH Vueling 144 (11–13.12), ARN KLM 146 (22–24.01). З cabin bag PMI/MAH >80; час рейсів не видно → TIME_UNVERIFIED, листів немає. Наступний блок: 19.02–14.03.2027.
 Веб: error fares немає (secretflying LatAm €152 — старий); TAP LIS-RAI від 248, LIS-SID 285 (січ.), MAD-RAI 463; Париж–Маврикій січ. від 719–731, AF «564» не підтверджено; акцій Vueling/Ryanair на PMI/MAH/CPH/ARN не знайдено.
 Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-17 (запуск 36, агент, GF; 7 країн; вівторок; скорочений запуск)
+Скрипт gflights: 18 команд вікон A/B (CV LIS A/B; MRU CDG/ORY A/B; ПАР BCN; Аргентина BCN/MAD; MAD→BOG,PTY / CUN,MEX A/B; via LIS A; via IST →PTY A) + 2 команди ВИХІДНИХ (24 пари). ≈1170 рядків у GF_RUNS/2026-11-17.csv; FAIL ≈ 38 (CV B, MRU B, via). WebSearch 8, сторінок 0. Не запускались: open-jaw, positioning, OFF_WINDOW, AMS/FRA.
+Найнижче (A / B): Cape Verde LIS-RAI/VXE 108 / LIS-SID 181 (BCN via LIS A 444); Маврикій CDG-MRU Kenya 702 / Emirates 775; ПАР BCN-JNB Air Europa 598 / 578; Колумбія MAD-BOG 806 / 729; Панама MAD-PTY 778 / 638; Мексика MAD-MEX 599 / 599; Аргентина BCN-EZE 889 / 897.
+Нових ≤ порогу немає (CV LIS A 108 + cabin bag + positioning ≈ 275 — вище за вже відомі 254, не нове). Падіння ≥15%: немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не вівторок-понеділок.
+ВИХІДНІ: 8 вихідних 27.11–15.01 + блок 19.02–14.03.2027 (BCN→PMI,MAH,CPH,ARN, обидва формати). Найнижче: PMI Vueling 35 (09–11.01), MAH Vueling 47 (18–20.12), CPH Vueling 136 (11–13.12), ARN KLM 153 (27–29.11). З cabin bag PMI/MAH >80; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний блок: 19.03–11.04.2027.
+Веб: error fares немає; TAP Іспанія–CV від 379–458; Paris–MRU AF «564» (не підтверджено), середнє ~950; chollometro CV LIS/OPO 75–87 (без cabin bag), MAD–PTY 424 (лют.–трав., поза вікнами); Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
