@@ -350,3 +350,11 @@ price_trends.py: Маврикій підтримує, вихідні не від
 ВИХІДНІ: 8 вихідних 27.11–15.01 + блок 19.02–14.03.2027 (BCN→PMI,MAH,CPH,ARN, обидва формати). Найнижче: PMI Vueling 35 (09–11.01), MAH Vueling 47 (18–20.12), CPH Vueling 136 (11–13.12), ARN KLM 153 (27–29.11). З cabin bag PMI/MAH >80; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний блок: 19.03–11.04.2027.
 Веб: error fares немає; TAP Іспанія–CV від 379–458; Paris–MRU AF «564» (не підтверджено), середнє ~950; chollometro CV LIS/OPO 75–87 (без cabin bag), MAD–PTY 424 (лют.–трав., поза вікнами); Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
 Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-18 (запуск 37, агент, GF; 7 країн; середа)
+Скрипт gflights: вікна A/B — CV (LIS→SID,BVC,RAI,VXE), MRU (CDG,ORY), ПАР (BCN,MAD→JNB,CPT), Колумбія/Панама (BCN,MAD→BOG,PTY), Мексика (→CUN,MEX), Аргентина (→EZE); ВИХІДНІ — 24 пари (BCN→PMI,MAH,CPH,ARN). ≈1240 рядків у GF_RUNS/2026-11-18.csv; FAIL ≈ 47 (CV B, MRU B, вихідні). Запуск повільний (≈6 хв/команду, ліміт 30 хв фону) — не запускались: open-jaw, via IST/LIS, positioning, OFF_WINDOW. WebSearch 7, сторінок 0.
+Найнижче (A / B): Cape Verde LIS-BVC 104 / LIS-BVC 174; Маврикій CDG-MRU Kenya 718 / Emirates 775; ПАР MAD-JNB Ethiopian 579 / BCN-JNB Air Europa 578; Колумбія/Панама BCN-PTY 749 / MAD-PTY Avianca 638; Мексика MAD-MEX 599 / BCN-MEX 600; Аргентина MAD-EZE 927 / 908.
+Нових ≤ порогу немає (CV A 104 + cabin bag + positioning ≈ 270 — вище відомих 254). Падіння ≥15%: немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не понеділок.
+ВИХІДНІ: 8 найближчих вихідних 27.11–17.01 + блок 19.03–11.04.2027 (обидва формати). Найнижче: PMI Vueling 33 (09–11.01), MAH Vueling 41 (11–13.12), CPH Air Serbia 132 (26–28.03.2027), ARN KLM 152 (12–14.12). З cabin bag PMI/MAH >80; CPH/ARN >120; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний блок: з 16.04.2027.
+Веб: error fares немає; Paris–MRU січ. від 731 (Emirates), AF «564» не підтверджено; Saudia BCN/MAD–MRU від 526 (старий допис); TAP LIS–CV від 285; Vueling/Ryanair акцій на PMI/MAH/CPH/ARN не знайдено.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning, open-jaw, via IST.
