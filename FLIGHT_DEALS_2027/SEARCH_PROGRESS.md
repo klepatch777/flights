@@ -367,3 +367,11 @@ price_trends.py: Маврикій підтримує, вихідні не від
 Візи: Маврикій — безвіз для громадян України (двостороння угода про скасування віз, серпень 2024; джерела розходяться щодо ліміту 90/180 днів; потрібні квиток назад і підтвердження проживання) — перевірено 2026-11-19.
 Веб: error fares немає (secretflying LatAm €152 — липень 2026, старий); TAP LIS-SID 285 / LIS-Praia 248 (9–16.01); Paris–MRU від 659–731, AF «364» 27.03–10.04 не підтверджено; Aeromexico MAD-CUN 710–712 (січ.–лют.); Vueling/Ryanair/Norwegian/SAS акцій на PMI/MAH/CPH/ARN не знайдено (Norwegian CPH від ~35 в один бік без дат).
 Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-20 (запуск 39, агент, GF; 7 країн; п'ятниця; скорочений запуск)
+Скрипт gflights: вікна A/B — CV LIS (A, B, open-jaw LIS→SID>BVC,VXE A), MRU CDG/ORY A, ПАР BCN/MAD B, MAD/BCN→BOG,PTY,CUN,MEX A+B, BCN/MAD→EZE B; ВИХІДНІ 2 команди (32 пари кожна). ≈1260 рядків у GF_RUNS/2026-11-20.csv; FAIL ≈ 20 (переважно CV B/open-jaw). Не запускались: ПАР A, MRU B, via IST/LIS, positioning, OFF_WINDOW, Аргентина A. WebSearch 8, сторінок 0.
+Найнижче (A / B): Cape Verde LIS-RAI 105 / LIS-SID 180 (OJ LIS-SID>BVC 136 A); Маврикій CDG-MRU Kenya 719 / —; ПАР — / BCN-JNB Air Europa 578; Колумбія BCN-BOG 826 / MAD-BOG 729; Панама MAD-PTY 737 / 638; Мексика MAD-MEX 608 / BCN-MEX 607; Аргентина — / MAD-EZE 908.
+Нових ≤ порогу немає. Падіння ≥15%: немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не понеділок.
+ВИХІДНІ: 8 вихідних 27.11–17.01 (Пт–Нд, Сб–Пн) BCN→PMI,MAH,CPH,ARN. Найнижче: PMI Vueling 34 (15–17.01), MAH Vueling 47 (11–13.12), CPH Vueling 138 (11–13.12), ARN KLM 142 (12–14.12). З cabin bag PMI/MAH >80, CPH/ARN >120; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Далекий блок не перевірявся (наступний: 15.01–14.02.2027 повторно).
+Веб: error fares немає (secretflying LatAm €152 — старий); Avianca MAD–PTY від 425 (січ.–черв. 2027, поза найдешевшими датами GF); Paris–MRU січ. 2027 від 884 (Air Austral) / 942 (Air Mauritius); Cape Verde TAP 187–259, акцій secretflying на 2027 немає; Vueling/Ryanair/Norwegian/SAS акцій на PMI/MAH/CPH/ARN не знайдено.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
