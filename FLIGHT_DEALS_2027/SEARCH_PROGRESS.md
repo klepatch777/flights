@@ -383,3 +383,12 @@ price_trends.py: Маврикій підтримує, вихідні не від
 ВИХІДНІ: вихідні 27.11–31.01.2027 (Пт–Нд, Сб–Пн) BCN→PMI,MAH,CPH,ARN. Найнижче (лише квиток): PMI Ryanair 36 (18–20.12), MAH Vueling 47 (11–13.12), CPH KLM 112 (08–10.01, з пересадкою), ARN KLM 142 (12–14.12). З cabin bag PMI/MAH >80; CPH KLM ~112 + ручна поклажа (KLM включає, не перевірено) — час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний блок: 05.02–14.03.2027 (частково перевірено раніше), далі 16.04+.
 Веб: error fares немає (secretflying LatAm €152 — старий); Paris–MRU від 731 (Partirou)/884 (Air Austral)/945 (AF); Air Mauritius 956; ПАР з BCN/MAD за агрегаторами 422–700 (недатовані); chollometro CV 76 (старий); акцій Vueling/Ryanair/Norwegian/SAS на PMI/MAH/CPH/ARN не знайдено.
 Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
+
+## 2026-11-22 (запуск 41, агент, GF; 7 країн; неділя; скорочений запуск)
+Скрипт gflights: 9 команд (вікна A/B: CV LIS A/B; MRU CDG/ORY A/B; ПАР BCN/MAD A; BCN/MAD→BOG,PTY B; →CUN,MEX B; →EZE A; ВИХІДНІ 1 команда, 16 пар). 1134 рядки у GF_RUNS/2026-11-22.csv; FAIL ≈ 27 (CV B, MRU B, вихідні). Не запускались: open-jaw, via IST/LIS, positioning, OFF_WINDOW, ПАР B, Аргентина B. WebSearch 3, сторінок 0.
+Найнижче (A / B): Cape Verde LIS-VXE easyJet 108 / LIS-BVC 184 (LIS-SID 187); Маврикій CDG-MRU Kenya 719 / Emirates 776; ПАР MAD-JNB Ethiopian 579 / —; Колумбія/Панама — / MAD-PTY Avianca 638; Мексика — / BCN-MEX Lufthansa 606; Аргентина MAD-EZE Turkish 923 / —.
+Нових ≤ порогу немає (CV рівні/вищі за відомі в ALERTED). Падіння ≥15%: немає. ALERT.md не змінювався, лист не надсилався. Тижневий звіт: не понеділок.
+ВИХІДНІ: 8 вихідних 27.11–17.01 (Пт–Нд, Сб–Пн) BCN→PMI,MAH,CPH,ARN. Найнижче (лише квиток): PMI Ryanair 36 (18–20.12), MAH Vueling 41 (18–20.12), CPH Vueling 144 (11–13.12), ARN KLM 142 (12–14.12). З cabin bag PMI/MAH >80; CPH/ARN >120; час рейсів скрипт не показує → TIME_UNVERIFIED, листів немає. Наступний блок: 16.04–10.05.2027 / 05.02–14.03.2027.
+Веб: error fares немає (secretflying LatAm €152 — липень 2026, старий); Paris–MRU AF «364» (27.03–10.04) / «564» не підтверджені, Emirates 731 (січ.); акцій Vueling/Ryanair/Norwegian/SAS на PMI/MAH/CPH/ARN не знайдено.
+Примітка: помилка в команді запуску (змінна шляху) — частину файлів тимчасово записано в корінь, перенесено.
+Не перевірено: зворотні рейси, час рейсів вихідних, OFF_WINDOW, positioning.
