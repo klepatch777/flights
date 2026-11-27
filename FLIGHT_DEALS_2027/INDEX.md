@@ -1,6 +1,6 @@
 # FLIGHT DEALS 2027 — INDEX
 
-Останній запуск: 2026-11-26 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
+Останній запуск: 2026-11-27 (UTC, GF; 7 країн: Cape Verde, South Africa, Mauritius, Colombia, Panama, Mexico, Argentina)
 
 Window | Country | Route | Dates | Days | Airline | Airfare EUR | Total from BCN EUR | Status | Found UTC | File
 
@@ -91,3 +91,4 @@ Destination | Format | Dates | Out time | Back time | Airline | TOTAL EUR | Stat
 | Denmark | Пт–Нд | 2026-12-11 – 2026-12-13 | ? | ? | Vueling | ~199 | TIME_UNVERIFIED | 2026-10-29 | WEEKENDS/Denmark/BCN-CPH_VUELING_2026-12-11_2026-12-13_EUR199.txt |
 | Sweden | Сб–Пн | 2026-11-28 – 2026-11-30 | ? | ? | KLM (via AMS) | ~152 | TIME_UNVERIFIED | 2026-10-29 | WEEKENDS/Sweden/BCN-ARN_KLM_2026-11-28_2026-11-30_EUR152.txt |
 Denmark/Sweden (старе): найдешевше за запит — ARN KLM ~191 (28–30.11, з пересадками); CPH запити зазнали збою; до порогу 120 далеко.
+2026-11-27 (найкраще, без змін щодо порогу): ВИХІДНІ (лише квиток, час рейсів не перевірено → TIME_UNVERIFIED): PMI Vueling 32 (13–15.03, 22–24.01.2027), MAH Vueling 42 (12–14.03.2027), CPH Vueling 111 (05–07.03.2027), ARN LOT 139 (16–18.01.2027). З cabin bag понад пороги.
